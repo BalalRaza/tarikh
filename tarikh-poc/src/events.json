@@ -1,0 +1,767 @@
+[
+  {
+    "id": "birth",
+    "order": 1,
+    "major": true,
+    "title": "Birth",
+    "ce": "c. 570",
+    "ah": null,
+    "place": {
+      "name": "Makkah",
+      "lat": 21.4225,
+      "lng": 39.8262
+    },
+    "short": "The Prophet Muhammad ﷺ was born in Makkah on a Monday, in the Year of the Elephant.",
+    "full": "Muhammad ﷺ was born in Makkah on a Monday. The Prophet ﷺ himself said that Monday was the day he was born. Ibn Ishaq, as passed on by Ibn Hisham, gives the date as the 12th of Rabi' al-Awwal in the Year of the Elephant. That was the year of the Army of the Elephant, whose plan Allah stopped, as Surah al-Fil tells. Qays ibn Makhrama said he and the Prophet ﷺ were born in that same year. Scholars differ about the exact day of the month. The year is usually given as about 570 CE.",
+    "refs": [
+      {
+        "type": "quran",
+        "label": "Quran 105:1-5 (Surah al-Fil)",
+        "url": "https://quran.com/105",
+        "supports": "The Army of the Elephant and Allah frustrating its plan (the event after which the Year of the Elephant is named). It does not mention the birth itself.",
+        "verified": true
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih Muslim 1162b",
+        "url": "https://sunnah.com/muslim:1162b",
+        "supports": "Asked about fasting on Monday, the Prophet ﷺ said it is the day on which he was born (and the day he was commissioned / revelation came to him).",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Jami` at-Tirmidhi 3619",
+        "url": "https://sunnah.com/tirmidhi:3619",
+        "supports": "Qays ibn Makhrama said he and the Messenger of Allah ﷺ were born in the Year of the Elephant.",
+        "verified": true,
+        "grade": "Sahih (Darussalam)"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Sirat Ibn Hisham, vol. 1, p. 158",
+        "url": "https://shamela.ws/book/23833/181",
+        "supports": "Ibn Ishaq: the Messenger of Allah ﷺ was born on a Monday, twelve nights into Rabi' al-Awwal, in the Year of the Elephant.",
+        "verified": true,
+        "location": "Ibn Hisham, al-Sira al-Nabawiyya (ed. al-Saqqa and others), vol. 1, p. 158; section 'وِلَادَةُ رَسُولِ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَرَضَاعَتُهُ', sub-heading 'رَأَى ابْنُ إسْحَاقَ مَوْلِدَهُ'",
+        "arabic": "قَالَ ابْنُ إسْحَاقَ: وُلِدَ رَسُولِ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَوْمَ الِاثْنَيْنِ، لِاثْنَتَيْ عَشْرَةَ لَيْلَةً خَلَتْ مِنْ شَهْرِ رَبِيعٍ الْأَوَّلِ، عَامَ الْفِيلِ"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Al-Bidaya wa'l-Nihaya, vol. 2, p. 319",
+        "url": "https://shamela.ws/book/8376/709",
+        "supports": "Ibn Kathir: the Prophet ﷺ was born on a Monday and there is no disagreement about this (citing the Muslim hadith and Ibn Abbas).",
+        "verified": true,
+        "location": "Ibn Kathir, al-Bidaya wa'l-Nihaya (ed. Ali Shiri), vol. 2, p. 319; chapter 'باب مولد رسول الله ﷺ'",
+        "arabic": "وهكذا روي من غير هذا الوجه عن ابن عباس أنه ولد يوم الاثنين. وهذا ما لا خلاف فيه أنه ولد ﷺ يوم الاثنين."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Al-Bidaya wa'l-Nihaya, vol. 2, p. 320 (month and day)",
+        "url": "https://shamela.ws/book/8376/710",
+        "supports": "Ibn Kathir: most say Rabi' al-Awwal, but the day is disputed (2nd, 8th, 10th, 12th named), so no single day is settled.",
+        "verified": true,
+        "location": "Ibn Kathir, al-Bidaya wa'l-Nihaya (ed. Ali Shiri), vol. 2, p. 320; chapter 'باب مولد رسول الله ﷺ'",
+        "arabic": "ثم الجمهور على أن ذلك كان في شهر ربيع الأول فقيل لليلتين خلتا منه قاله ابن عبد البر في الاستيعاب ورواه الواقدي عن أبي معشر نجيح بن عبد الرحمن المدني. وقيل لثمان خلون منه حكاه الحميدي عن ابن حزم. ورواه مالك وعقيل ويونس بن يزيد وغيرهم عن الزهري عن محمد بن جبير بن مطعم ونقل ابن عبد البر عن أصحاب التاريخ أنهم صححوه وقطع به الحافظ الكبير محمد بن موسى الخوارزمي ورجحه الحافظ أبو الخطاب بن دحية في كتابه التنوير في مولد البشير النذير وقيل لعشر خلون منه نقله ابن دحية في كتابه ورواه ابن عساكر عن أبي جعفر الباقر ورواه مجالد عن الشعبي كما مر. وقيل لثنتي عشرة خلت منه نص عليه ابن إسحاق"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Al-Bidaya wa'l-Nihaya, vol. 2, p. 320 (Makkah)",
+        "url": "https://shamela.ws/book/8376/710",
+        "supports": "Ibn Kathir quotes al-Zubayr ibn Bakkar that the Prophet ﷺ was born in Makkah, in the house later known by Muhammad ibn Yusuf's name.",
+        "verified": true,
+        "location": "Ibn Kathir, al-Bidaya wa'l-Nihaya (ed. Ali Shiri), vol. 2, p. 320; chapter 'باب مولد رسول الله ﷺ'",
+        "arabic": "قال الزبير بن بكار حملت به أمه في أيام التشريق في شعب أبي طالب عند الجمرة الوسطى. وولد بمكة بالدار المعروفة بمحمد بن يوسف أخي الحجاج بن يوسف لثنتي عشرة ليلة خلت من شهر رمضان."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Al-Bidaya wa'l-Nihaya, vol. 2, p. 321 (Year of the Elephant)",
+        "url": "https://shamela.ws/book/8376/711",
+        "supports": "Ibn Kathir: the Prophet ﷺ was born in the Year of the Elephant on the majority view, reported as a month, forty days or fifty days after it (fifty being best known).",
+        "verified": true,
+        "location": "Ibn Kathir, al-Bidaya wa'l-Nihaya (ed. Ali Shiri), vol. 2, p. 321; chapter 'باب مولد رسول الله ﷺ'",
+        "arabic": "والمقصود أن رسول الله ﷺ ولد عام الفيل على قول الجمهور فقيل بعده بشهر، وقيل بأربعين يوما، وقيل بخمسين يوما - وهو أشهر -"
+      }
+    ],
+    "grade": "A",
+    "verified": true,
+    "scene": "scenes/birth.svg",
+    "dateNote": "Monday and the Year of the Elephant are firmly reported, but the day of the month is disputed (Ibn Ishaq says 12 Rabi' al-Awwal; others say the 2nd, 8th or 10th, and one report says Ramadan), AH does not apply because this is before the Hijra, and 570 CE is a modern conversion (570 or 571) that the classical sources do not give.",
+    "gradeReason": "Quran 105 (the Elephant event) and Sahih Muslim 1162b (Monday birth) support the core, and the Elephant-year birth is in Tirmidhi 3619 (graded Sahih (Darussalam) on sunnah.com), while the day of the month and the CE year are disputed or modern."
+  },
+  {
+    "id": "revelation",
+    "order": 2,
+    "major": true,
+    "title": "First revelation",
+    "ce": "610",
+    "ah": null,
+    "place": {
+      "name": "Cave Hira",
+      "lat": 21.4574,
+      "lng": 39.8576
+    },
+    "short": "In the month of Ramadan, the angel Jibril came to Prophet Muhammad ﷺ in the cave of Hira and said, “Read!”",
+    "full": "Prophet Muhammad ﷺ often went to the cave of Hira, on a mountain near Makkah, to worship Allah in quiet. He was forty years old. In the month of Ramadan, on a Monday, the angel Jibril came to him there and said, “Read!” The Prophet ﷺ answered that he could not read. The angel pressed him firmly, and this happened three times. Then the angel recited the first words of Surah al-Alaq: “Read in the name of your Lord who created.” The Prophet ﷺ went home with his heart trembling, and his wife Khadija comforted him. This was the beginning of the Quran’s revelation. Scholars differ about which night of Ramadan it was.",
+    "refs": [
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 3",
+        "url": "https://sunnah.com/bukhari:3",
+        "supports": "Aisha narrates the first revelation: Prophet Muhammad ﷺ was in the cave of Hira, the angel came and said 'Read' three times, he replied he could not read, was pressed each time, then the angel recited the opening of Surah al-Alaq (96:1-3 as cited there); he went to Khadija trembling and was comforted by her.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih Muslim 160a",
+        "url": "https://sunnah.com/muslim:160a",
+        "supports": "Second sahih narration (Aisha) of the same event in Muslim's chapter 'The beginning of the revelation to the messenger of Allah': in the cave of Hira, the angel said 'Recite' three times, then recited the first verses of Surah al-Alaq.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 3851",
+        "url": "https://sunnah.com/bukhari:3851",
+        "supports": "Ibn Abbas: revelation came to the Prophet ﷺ at the age of forty; he then stayed in Makkah thirteen years before the order to migrate.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih Muslim 1162b",
+        "url": "https://sunnah.com/muslim:1162b",
+        "supports": "Asked about fasting on Monday, the Prophet ﷺ said it was the day he was born and the day he was commissioned with prophethood or revelation was sent down to him.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "quran",
+        "label": "Quran 96:1-5 (Surah al-Alaq)",
+        "url": "https://quran.com/96/1-5",
+        "supports": "The first five verses of Surah al-Alaq ('Read in the name of your Lord who created...'), the words the angel recited in Sahih al-Bukhari 3 and in Ibn Hisham. The Quran text itself does not say these were first revealed or name Hira; that comes from the hadith and Ibn Kathir.",
+        "verified": true
+      },
+      {
+        "type": "quran",
+        "label": "Quran 2:185 (Surah al-Baqarah)",
+        "url": "https://quran.com/2/185",
+        "supports": "Ramadan is the month in which the Quran was revealed. Ibn Ishaq (via Ibn Kathir and Ibn Hisham tradition) uses this verse to place the start of revelation in Ramadan; the verse itself does not mention Hira or the first revelation specifically.",
+        "verified": true
+      },
+      {
+        "type": "quran",
+        "label": "Quran 97:1 (Surah al-Qadr)",
+        "url": "https://quran.com/97/1",
+        "supports": "Allah sent the Quran down on the Night of Glory (al-Qadr), which Ibn Ishaq cites alongside 2:185 for dating the start of revelation to Ramadan.",
+        "verified": true
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya, Part 3: 'ذكر عمره عليه الصلاة والسلام وقت بعثته وتاريخها' (age at the mission and its date)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9_(%D8%B7._%D8%A7%D9%84%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9)/%D8%A5%D8%B3%D9%84%D8%A7%D9%85_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%87%D8%AC%D8%B1%D8%A9/%D8%B0%D9%83%D8%B1_%D8%B9%D9%85%D8%B1%D9%87_%D8%B9%D9%84%D9%8A%D9%87_%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9_%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_%D9%88%D9%82%D8%AA_%D8%A8%D8%B9%D8%AB%D8%AA%D9%87_%D9%88%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%87%D8%A7",
+        "supports": "Ibn Kathir says revelation came on a Monday with no disagreement among scholars; some said Rabi al-Awwal, but the well-known view (stated by Ubayd ibn Umayr and Ibn Ishaq) is Ramadan; the date within Ramadan is reported as the 17th night (via al-Waqidi from Abu Jafar al-Baqir) or the 24th.",
+        "verified": true,
+        "location": "Part 3 (الجزء 3), pp. 4-16 of the Cairo, Matba'at al-Sa'ada (1351 AH) edition as transcribed on Arabic Wikisource; section 'ذكر عمره عليه الصلاة والسلام وقت بعثته وتاريخها' under 'إسلام قبل الهجرة'. Exact page of this passage within pp. 4-16 not shown.",
+        "arabic": "وهكذا قال عبيد بن عمير وأبو جعفر الباقر وغير واحد من العلماء: انه عليه الصلاة والسلام أوحى اليه يوم الاثنين، وهذا ما لا خلاف فيه بينهم. ثم قيل: كان ذلك في شهر ربيع الأول، كما تقدم عن ابن عباس وجابر أنه ولد عليه السلام، في الثاني عشر من ربيع الأول يوم الإثنين وفيه بعث وفيه عرج به إلى السماء، والمشهور انه بعث عليه الصلاة والسلام في شهر رمضان، كما نص على ذلك عبيد بن عمير، ومحمد بن إسحاق وغيرهما. قال ابن إسحاق مستدلا على ذلك بما قال الله تعالى: ﴿شَهْرُ رَمَضانَ الَّذِي أُنْزِلَ فِيهِ الْقُرْآنُ هُدىً لِلنّاسِ﴾ فقيل في عشره. وروى الواقدي بسنده عن أبى جعفر الباقر أنه قال: كان ابتداء الوحي إلى رسول الله ﷺ يوم الاثنين، لسبع عشرة ليلة خلت من رمضان وقيل في الرابع والعشرين منه."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya, Part 3: 'باب كيفية بدء الوحي إلى رسول الله صلى الله عليه وسلم'",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB/%D8%A8%D8%A7%D8%A8_%D9%83%D9%8A%D9%81%D9%8A%D8%A9_%D8%A8%D8%AF%D8%A1_%D8%A7%D9%84%D9%88%D8%AD%D9%8A_%D8%A5%D9%84%D9%89_%D8%B1%D8%B3%D9%88%D9%84_%D8%A7%D9%84%D9%84%D9%87_%D8%B5%D9%84%D9%89_%D8%A7%D9%84%D9%84%D9%87_%D8%B9%D9%84%D9%8A%D9%87_%D9%88%D8%B3%D9%84%D9%85",
+        "supports": "Chapter on how revelation began and the first thing revealed of the Quran; Ibn Kathir states the Prophet ﷺ was forty years old at that time, then gives Aisha's hadith (Hira, 'Read', Khadija, Waraqa).",
+        "verified": true,
+        "location": "Part 3 (الجزء الثالث), chapter 'باب كيفية بدء الوحي إلى رسول الله صلى الله عليه وسلم', as transcribed on Arabic Wikisource; print edition and page not shown on the page.",
+        "arabic": "باب كيف بدأ الوحي إلى رسول الله ﷺ، وذكر أول شيء أنزل عليه من القرآن العظيم. كان ذلك وله ﷺ من العمر أربعون سنة."
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira al-Nabawiyya (from Ibn Ishaq), vol. 1 p. 236: ابتداء نزول جبريل عليه السلام",
+        "url": "https://shamela.ws/book/23833/259",
+        "supports": "Ibn Ishaq's report via Wahb ibn Kaysan from Ubayd ibn Umayr: the Prophet ﷺ spent a month each year at Hira; in the year he was sent, that month was Ramadan; on the night Allah honoured him with the message, Jibril came by Allah's command and said 'Read'.",
+        "verified": true,
+        "location": "Vol. 1 (ج1), p. 236, al-Saqqa/al-Abyari/Shalabi edition (Shamela book 23833); section 'ابتداء نزول جبريل عليه السلام' (begins p. 235), page header 'بحث لغوي لابن هشام في معنى التحنث'.",
+        "arabic": "حَتَّى إذَا كَانَ الشَّهْرُ الَّذِي أَرَادَ اللَّهُ تَعَالَى بِهِ فِيهِ مَا أَرَادَ مِنْ كَرَامَتِهِ، مِنْ السّنة الَّتِي بَعثه اللَّهُ تَعَالَى فِيهَا، وَذَلِكَ الشَّهْرُ (شَهْرُ) رَمَضَانَ، خَرَجَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ إلَى حِرَاءٍ، كَمَا كَانَ يَخْرُجُ لِجِوَارِهِ وَمَعَهُ أَهْلُهُ، حَتَّى إذَا كَانَتْ اللَّيْلَةُ الَّتِي أَكْرَمَهُ اللَّهُ فِيهَا بِرِسَالَتِهِ، وَرَحِمَ الْعِبَادَ بِهَا، جَاءَهُ جِبْرِيلُ عَلَيْهِ السَّلَامُ بِأَمْرِ اللَّهِ تَعَالَى. قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: فَجَاءَنِي جِبْرِيلُ، وَأَنَا نَائِمٌ، بِنَمَطٍ مِنْ دِيبَاجٍ فِيهِ كِتَابٌ، فَقَالَ اقْرَأْ، قَالَ: قُلْتُ: مَا أَقْرَأُ؟"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira al-Nabawiyya, vol. 1 p. 237: Surah 96:1-5 recited",
+        "url": "https://shamela.ws/book/23833/260",
+        "supports": "After the third time, the angel recited 'Read in the name of your Lord who created' through 'taught man what he knew not' (96:1-5); the Prophet ﷺ then left, heard his name called, and went to Khadija.",
+        "verified": true,
+        "location": "Vol. 1 (ج1), p. 237, al-Saqqa/al-Abyari/Shalabi edition (Shamela book 23833); page header 'رسول الله صلى الله عليه وسلم يقص على خديجة ما كان من أمر جبريل معه'.",
+        "arabic": "فَقَالَ: اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ خَلَقَ الْإِنْسانَ مِنْ عَلَقٍ. اقْرَأْ وَرَبُّكَ الْأَكْرَمُ الَّذِي عَلَّمَ بِالْقَلَمِ. عَلَّمَ الْإِنْسانَ مَا لَمْ يَعْلَمْ ٩٦: ١- ٥."
+      }
+    ],
+    "grade": "A",
+    "verified": true,
+    "scene": "scenes/revelation.svg",
+    "dateNote": "Sources give his age as forty (Sahih al-Bukhari 3851), the month as Ramadan (the well-known view per Ibn Kathir, citing Ibn Ishaq; Quran 2:185), and the day as Monday (Sahih Muslim 1162b), but the night of Ramadan is disputed (17th or 24th per Ibn Kathir), some reports give age 43, and no source states a CE year, so 610 CE is a modern calculation and no AH year exists because this is before the Hijra.",
+    "gradeReason": "Sahih al-Bukhari 3 and Sahih Muslim 160a narrate the event itself and Quran 96:1-5 gives the recited words, while only the exact night of Ramadan is disputed."
+  },
+  {
+    "id": "hijra",
+    "order": 3,
+    "major": true,
+    "title": "The Hijra",
+    "ce": "622",
+    "ah": "1 AH",
+    "place": {
+      "name": "Madinah",
+      "lat": 24.4672,
+      "lng": 39.6111
+    },
+    "short": "The Prophet ﷺ left Makkah with Abu Bakr, hid in a cave for three nights, then rode to Madinah, where people welcomed them.",
+    "full": "The Quraysh of Makkah plotted against the Prophet ﷺ, and some Muslims had already moved to Madinah. Allah gave the Prophet ﷺ permission to migrate, and Abu Bakr asked to go with him. They left Makkah and hid in a cave on Mount Thawr for three nights. Abu Bakr's son Abdullah brought news from Makkah, and Abu Bakr's shepherd Amir ibn Fuhayra brought them milk. Then a hired guide led them along the coast towards Madinah, where the Ansar welcomed them. The Quran mentions the cave: he said to his companion, 'Do not worry; Allah is certainly with us.' The Muslims later counted their calendar from his arrival in Madinah.",
+    "refs": [
+      {
+        "type": "quran",
+        "label": "Quran 9:40 (At-Tawbah)",
+        "url": "https://quran.com/9/40",
+        "supports": "The disbelievers drove him out of Makkah; he and his companion were 'only one of two' in the cave; he said, 'Do not worry; Allah is certainly with us'; Allah sent down serenity and supported him with unseen forces.",
+        "verified": true
+      },
+      {
+        "type": "quran",
+        "label": "Quran 8:30 (Al-Anfal)",
+        "url": "https://quran.com/8/30",
+        "supports": "The disbelievers conspired to capture, kill, or exile the Prophet ﷺ, the plot the Hijra is linked to.",
+        "verified": true
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 3905",
+        "url": "https://sunnah.com/bukhari:3905",
+        "supports": "Some Muslims migrated to Madinah first; the Prophet ﷺ told Abu Bakr 'I have been given permission to migrate' and Abu Bakr asked to accompany him; they stayed three nights in a cave on Mount Thawr; Abdullah ibn Abu Bakr brought news by night and Amir ibn Fuhayra brought milk-sheep; they hired a guide who took the coastal route.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 3911",
+        "url": "https://sunnah.com/bukhari:3911",
+        "supports": "The Prophet ﷺ arrived in Madinah with Abu Bakr; the Ansar, carrying their arms, came out to greet them and the people said 'Allah's Prophet has come'; he alighted near the house of Abu Ayyub.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 3934",
+        "url": "https://sunnah.com/bukhari:3934",
+        "supports": "The Companions started the Muslim calendar from the day of the Prophet's ﷺ arrival at Madinah, not from his being sent as a Prophet or from his death (basis for 1 AH).",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya, Vol. 3 p. 177",
+        "url": "https://shamela.ws/book/23708/870",
+        "supports": "Ibn Kathir states the Hijra was in Rabi' al-Awwal of the 13th year after the call to prophethood, on a Monday, citing Ibn Abbas via Imam Ahmad: he left Makkah on a Monday and entered Madinah on a Monday.",
+        "verified": true,
+        "location": "Vol. 3, p. 177 (al-Sa'ada edition as shown on shamela.ws); Book of the Sira, section 'Bab al-Hijra', chapter: باب هجرة رسول الله ﷺ بنفسه الكريمة من مكة الى المدينة ومعه أبو بكر الصديق ﵁",
+        "arabic": "وقد كانت هجرته ﵇ في شهر ربيع الأول سنة ثلاث عشرة من بعثته ﵇ وذلك في يوم الاثنين كما رواه الامام احمد عن ابن عباس أنه قال: ولد نبيكم يوم الاثنين، وخرج من مكة يوم الاثنين، ونبئ يوم الاثنين، ودخل المدينة يوم الاثنين، وتوفى يوم الاثنين."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya, Vol. 3 p. 190",
+        "url": "https://shamela.ws/book/23708/883",
+        "supports": "In Ibn Ishaq's route account, they reached Quba (Banu Amr ibn Awf) on Monday, the twelfth night of Rabi' al-Awwal, as the day grew hot.",
+        "verified": true,
+        "location": "Vol. 3, p. 190 (al-Sa'ada edition as shown on shamela.ws); same chapter: باب هجرة رسول الله ﷺ بنفسه الكريمة من مكة الى المدينة ومعه أبو بكر الصديق ﵁",
+        "arabic": "قباء على بنى عمرو بن عوف لاثنتي عشرة ليلة خلت من شهر ربيع الأول يوم الاثنين حين اشتد الضحاء وكادت الشمس تعتدل."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya, Vol. 3 p. 190 (length of journey)",
+        "url": "https://shamela.ws/book/23708/883",
+        "supports": "Ibn Kathir's own estimate (he says 'apparently') that about fifteen days passed between leaving Makkah and entering Madinah, since the stay in the cave of Thawr was three days and they then took the longer coastal road.",
+        "verified": true,
+        "location": "Vol. 3, p. 190 (al-Sa'ada edition as shown on shamela.ws); same chapter as above",
+        "arabic": "والظاهر أن بين خروجه ﵇ من مكة ودخوله المدينة خمسة عشر يوما لانه أقام بغار ثور ثلاثة أيام"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira al-Nabawiyya, Vol. 1 p. 485",
+        "url": "https://shamela.ws/book/23833/508",
+        "supports": "Ibn Ishaq: the Prophet ﷺ went to Abu Bakr, they left by a back door of Abu Bakr's house and went to a cave in Thawr, a mountain below Makkah; Abdullah ibn Abu Bakr listened for news by day and Amir ibn Fuhayra grazed the sheep; Ali was told to stay behind in Makkah to return the people's deposits.",
+        "verified": true,
+        "location": "Vol. 1, p. 485 (ed. al-Saqqa, al-Abyari, Shalabi, as shown on shamela.ws); section 'هجرة الرسول صلى الله عليه وسلم', sub-heading: (قِصَّةُ الرَّسُولِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ مَعَ أَبِي بَكْرٍ فِي الْغَارِ)",
+        "arabic": "فَخَرَجَا مِنْ خَوْخَةٍ لِأَبِي بَكْرٍ فِي ظَهْرِ بَيْتِهِ، ثُمَّ عَمَدَ إلَى غَارٍ بِثَوْرٍ- جَبَلٍ بِأَسْفَلِ مَكَّةَ- فَدَخَلَاهُ، وَأَمَرَ أَبُو بَكْرٍ ابْنَهُ عَبْدَ اللَّهِ بْنَ أَبِي بَكْرٍ أَنْ يَتَسَمَّعَ لَهُمَا مَا يَقُولُ النَّاسُ فِيهِمَا نَهَارَهُ"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira al-Nabawiyya, Vol. 1 p. 486",
+        "url": "https://shamela.ws/book/23833/509",
+        "supports": "Ibn Ishaq: the Prophet ﷺ stayed in the cave three days with Abu Bakr, and Quraysh set a reward of a hundred camels for returning him; when the three days passed they set out with the hired guide.",
+        "verified": true,
+        "location": "Vol. 1, p. 486 (ed. al-Saqqa, al-Abyari, Shalabi, as shown on shamela.ws); section 'هجرة الرسول صلى الله عليه وسلم', sub-heading: (ابْنَا أَبِي بَكْرٍ وَابْنِ فهَيْرَة يقومُونَ بشئون الرَّسُولِ وَصَاحِبِهِ وَهُمَا فِي الْغَارِ)",
+        "arabic": "فَأَقَامَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ فِي الْغَارِ ثَلَاثًا وَمَعَهُ أَبُو بَكْرٍ"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira al-Nabawiyya, Vol. 1 p. 492",
+        "url": "https://shamela.ws/book/23833/515",
+        "supports": "Ibn Ishaq: they reached Quba, among Banu Amr ibn Awf, on Monday, the twelfth night of Rabi' al-Awwal; the page also records the Ansar waiting for him and welcoming him.",
+        "verified": true,
+        "location": "Vol. 1, p. 492 (ed. al-Saqqa, al-Abyari, Shalabi, as shown on shamela.ws); section 'هجرة الرسول صلى الله عليه وسلم', sub-heading: (قُدُومُهُ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قُبَاءَ)",
+        "arabic": "ثُمَّ قَدِمَ بِهِمَا قُبَاءٍ، عَلَى بَنِي عَمْرِو بْنِ عَوْفٍ، لِاثْنَتَيْ عَشْرَةَ لَيْلَةٍ خَلَتْ مِنْ شَهْرِ رَبِيعٍ الْأَوَّلِ يَوْمَ الِاثْنَيْنِ، حِينَ اشْتَدَّ الضَّحَاءُ، وَكَادَتْ الشَّمْسُ تَعْتَدِلُ."
+      }
+    ],
+    "grade": "A",
+    "verified": true,
+    "scene": "scenes/hijra.svg",
+    "dateNote": "Ibn Ishaq (via Ibn Hisham) and Ibn Kathir give arrival at Quba on Monday 12 Rabi' al-Awwal (an editor's footnote in the Ibn Hisham edition records another view of 8 Rabi' al-Awwal), Ibn Kathir places the Hijra in Rabi' al-Awwal yet also estimates about 15 days between leaving Makkah and entering Madinah (implying departure near the end of Safar), and the sources give only lunar dates, so 622 CE is a later calendar conversion.",
+    "gradeReason": "The Hijra, the companion and the cave are stated in Quran 9:40 and in Sahih al-Bukhari 3905; only the exact day and month remain a matter of difference between sources."
+  },
+  {
+    "id": "badr",
+    "order": 4,
+    "major": false,
+    "title": "Battle of Badr",
+    "ce": "624",
+    "ah": "2 AH",
+    "place": {
+      "name": "Badr",
+      "lat": 23.7333,
+      "lng": 38.7833
+    },
+    "short": "Muslims from Madinah, only about 313 men, faced a much bigger army from Makkah at Badr. With Allah's help, the Muslims won.",
+    "full": "In Ramadan of 2 AH, the Prophet ﷺ set out from Madinah with about 313 Muslims, going toward a rich Quraysh caravan coming back from Syria. The caravan escaped by another route, but Makkah's army of about a thousand kept coming. The two sides met at Badr. The Prophet ﷺ and the believers asked Allah for help, and the Quran says Allah answered by promising angels to reinforce them. Though far fewer, the Muslims won, and about seventy of the Quraysh were taken prisoner. The Quran calls it the day of decision, when the two armies met, and reminds the believers that victory comes only from Allah.",
+    "refs": [
+      {
+        "type": "quran",
+        "label": "Quran 3:123",
+        "url": "https://quran.com/3/123",
+        "supports": "Allah gave the believers victory at Badr when they were vastly outnumbered (3:124-125 go on to mention angelic reinforcement).",
+        "verified": true
+      },
+      {
+        "type": "quran",
+        "label": "Quran 8:7",
+        "url": "https://quran.com/8:7",
+        "supports": "Allah promised the believers the upper hand over one of two parties (the caravan or the army, as the classical commentators explain) and willed to establish the truth.",
+        "verified": true
+      },
+      {
+        "type": "quran",
+        "label": "Quran 8:9-10",
+        "url": "https://quran.com/8:9",
+        "supports": "The believers cried to their Lord for help and Allah answered, promising reinforcement by a thousand angels; victory comes only from Allah.",
+        "verified": true
+      },
+      {
+        "type": "quran",
+        "label": "Quran 8:41",
+        "url": "https://quran.com/8:41",
+        "supports": "The Quran calls the day of Badr the day of decision, when the two armies met.",
+        "verified": true
+      },
+      {
+        "type": "quran",
+        "label": "Quran 8:42-44",
+        "url": "https://quran.com/8:42",
+        "supports": "The Muslims were on the near side of the valley, the enemy on the far side and the caravan below them; the armies met without an appointment, and each side was made to look few to the other.",
+        "verified": true
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih Muslim 1763",
+        "url": "https://sunnah.com/muslim:1763",
+        "supports": "Umar's narration: the Quraysh were about one thousand and the Prophet's ﷺ companions 319 (other sources say 313/314); the Prophet ﷺ prayed to Allah for the promised help; Allah revealed 8:9 and helped with angels; seventy were killed and seventy captured.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 3951",
+        "url": "https://sunnah.com/bukhari:3951",
+        "supports": "Ka'b ibn Malik: the Prophet ﷺ went out to meet the Quraysh caravan, and Allah caused the Muslims to meet their enemy unexpectedly, with no previous intention.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 3957",
+        "url": "https://sunnah.com/bukhari:3957",
+        "supports": "Al-Bara': the companions who fought at Badr numbered over 310, like the companions of Talut (Saul).",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya: Badr (departure and the caravan)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB/%D8%BA%D8%B2%D9%88%D8%A9_%D8%A8%D8%AF%D8%B1_%D8%A7%D9%84%D8%B9%D8%B8%D9%85%D9%89_%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D9%81%D8%B1%D9%82%D8%A7%D9%86_%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D8%AA%D9%82%D9%89_%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A7%D9%86",
+        "supports": "The Prophet ﷺ heard of Abu Sufyan's large caravan returning from Sham and called the Muslims to go out to it; they did not expect a fight; Abu Sufyan, warned, took precautions.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, Vol. 3 (الجزء الثالث), under 'ذكر ما وقع في السنة الثانية من الهجرة' > 'كتاب المغازي', chapter 'غزوة بدر العظمى يوم الفرقان يوم التقى الجمعان' (text as transcribed on ar.wikisource.org; no page marker on this page)",
+        "arabic": "قالوا: لما سمع رسول الله ﷺ بأبي سفيان مقبلا من الشام ندب المسلمين إليهم وقال: «هذه عير قريش فيها أموالهم، فاخرجوا إليها لعل الله ينفلكموها»، فانتدب الناس فخفف بعضهم وثقل بعض، وذلك أنهم لم يظنوا أن رسول الله ﷺ يلقى حربا، وكان أبو سفيان حين دنا من الحجاز يتجسس من لقي من الركبان تخوفا على أموال الناس حتى أصاب خبرا من بعض الركبان أن محمدا قد استنفر أصحابه لك ولعيرك فحذر عند ذلك."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya: Badr (caravan safe, Quraysh push on)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB/%D8%BA%D8%B2%D9%88%D8%A9_%D8%A8%D8%AF%D8%B1_%D8%A7%D9%84%D8%B9%D8%B8%D9%85%D9%89_%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D9%81%D8%B1%D9%82%D8%A7%D9%86_%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D8%AA%D9%82%D9%89_%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A7%D9%86",
+        "supports": "Abu Sufyan secured the caravan and sent word to Quraysh that Allah had saved it and they should return; Abu Jahl refused to turn back before reaching Badr.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, Vol. 3 (الجزء الثالث), under 'ذكر ما وقع في السنة الثانية من الهجرة' > 'كتاب المغازي', chapter 'غزوة بدر العظمى يوم الفرقان يوم التقى الجمعان' (text as transcribed on ar.wikisource.org; no page marker on this page)",
+        "arabic": "قال ابن إسحاق: ولما رأى أبو سفيان أنه قد أحرز عيره، أرسل إلى قريش: أنكم إنما خرجتم لتمنعوا عيركم ورجالكم وأموالكم فقد نجاها الله فارجعوا.\n\nفقال أبو جهل بن هشام: والله لا نرجع حتى نرد بدرا"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya: Badr (Muslim numbers)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB/%D8%BA%D8%B2%D9%88%D8%A9_%D8%A8%D8%AF%D8%B1_%D8%A7%D9%84%D8%B9%D8%B8%D9%85%D9%89_%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D9%81%D8%B1%D9%82%D8%A7%D9%86_%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D8%AA%D9%82%D9%89_%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A7%D9%86",
+        "supports": "The Prophet's ﷺ companions at Badr were 313 men, matching al-Bara's report in Sahih al-Bukhari of 'three hundred and ten-plus'.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, Vol. 3 (الجزء الثالث), under 'ذكر ما وقع في السنة الثانية من الهجرة' > 'كتاب المغازي', chapter 'غزوة بدر العظمى يوم الفرقان يوم التقى الجمعان' (text as transcribed on ar.wikisource.org; no page marker on this page)",
+        "arabic": "قلت: وقد كان أصحاب رسول الله ﷺ يومئذٍ ثلاثمائة وثلاثة عشر رجلا كما سيأتي بيان ذلك في فصل نعقده بعد الوقعة، ونذكر أسماءهم على حروف المعجم إن شاء الله.\n\nففي (صحيح البخاري) عن البراء.\n\nقال: كنا نتحدث أن أصحاب بدر ثلثمائة وبضع عشرة على عدة أصحاب طالوت الذين جاوزوا معه النهر، وما جاوزه معه إلا مؤمن."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya: Badr (Quraysh numbers and date)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB/%D9%81%D8%B5%D9%84_%D8%B9%D8%AF%D8%AF_%D8%A7%D9%84%D9%82%D8%AA%D9%84%D9%89_%D9%88%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D9%89_%D9%85%D9%86_%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%83%D9%8A%D9%86_%D9%8A%D9%88%D9%85_%D8%A8%D8%AF%D8%B1_%D8%B3%D8%A8%D8%B9%D9%88%D9%86",
+        "supports": "Quraysh were about 900-1000; Muslims 300-plus; Badr fell on Friday 17 Ramadan (Ibn Abbas, Urwa, Qatada and others; 'well known among the maghazi scholars' per al-Bayhaqi). He also quotes reports pointing to around the 19th (Ibn Mas'ud, Zayd ibn Arqam) and an Abu Ayyub report with several dates, which he calls 'very strange'.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, Vol. 3 (الجزء الثالث), chapter 'فصل عدد القتلى والأسرى من المشركين يوم بدر سبعون' (follows 'غزوة بدر العظمى'); inline page marker in the text: (جص:3 367) = vol. 3, p. 367 of the source edition",
+        "arabic": "قلت: والصحيح أن جملة المشركين كانوا ما بين التسعمائة إلى الألف، وقد صرح قتادة بأنهم كانوا تسعمائة وخمسين رجلا، وكأنه أخذه من هذا الذي ذكرناه، والله أعلم.\n\nوفي حديث عمر المتقدم أنهم كانوا زيادة على الألف، والصحيح الأول لقوله عليه السلام: «القوم ما بين التسعمائة إلى الألف»، وأما الصحابة يومئذٍ فكانوا ثلاثمائة وبضعة عشر رجلا، كما سيأتي التنصيص على ذلك وعلى أسمائهم إن شاء الله.\n\nوتقدم في حديث الحكم، عن مقسم، عن ابن عباس: أن وقعة بدر كانت يوم الجمعة السابع عشر من شهر رمضان، وقاله أيضا عروة بن الزبير، وقتادة، وإسماعيل، والسدي الكبير، وأبو جعفر، الباقر. (جص:3 367)\n\nوروى البيهقي من طريق قتيبة، عن جرير، عن الأعمش، عن إبراهيم، عن الأسود، عن عبد الله بن مسعود في ليلة القدر قال: تحروها لإحدى عشرة بقين فإن صبيحتها يوم بدر.\n\nقال البيهقي: وروي عن زيد بن أرقم أنه سئل عن ليلة القدر، فقال: ليلة تسع عشرة ما شك، وقال: يوم الفرقان يوم التقى الجمعان.\n\nقال البيهقي: والمشهور عن أهل المغازي أن ذلك لسبع عشرة ليلة مضت من شهر رمضان.\n\nثم قال البيهقي: أخبرنا أبو الحسين بن بشران، حدثنا أبو عمرو بن السماك، حدثنا حنبل بن إسحاق، ثنا أبو نعيم، ثنا عمرو بن عثمان: سمعت موسى بن طلحة يقول: سئل أبو أيوب الأنصاري عن يوم بدر فقال: إما لسبع عشرة خلت أو لثلاث عشرة خلت أو لإحدى عشرة بقيت، وإما لسبع عشرة بقيت.\n\nوهذا غريب جدا."
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira: Ghazwat Badr al-Kubra (the caravan)",
+        "url": "https://shamela.ws/book/23833/629",
+        "supports": "The Prophet ﷺ heard of Abu Sufyan returning from Sham with a great Quraysh caravan (Ibn Ishaq's narration, as edited by Ibn Hisham).",
+        "verified": true,
+        "location": "Sirat Ibn Hisham, ed. al-Saqqa et al. (shamela.ws book 23833), ج1 ص606, chapter 'غزوة بدر الكبرى' > 'عير أبي سفيان' (page opens under the preceding heading 'صرف القبلة إلى الكعبة')",
+        "arabic": "قَالَ ابْنُ إسْحَاقَ: ثُمَّ إنَّ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ سَمِعَ بِأَبِي سُفْيَانَ بْنِ حَرْبٍ مُقْبِلًا مِنْ الشَّأْمِ فِي عِيرٍ لِقُرَيْشٍ عَظِيمَةٍ، فِيهَا أَمْوَالٌ لِقُرَيْشِ وَتِجَارَةٌ مِنْ تِجَارَاتِهِمْ وَفِيهَا ثَلَاثُونَ رَجُلًا مِنْ قُرَيْشٍ أَوْ أَرْبَعُونَ، مِنْهُمْ مَخْرَمَةُ بْنُ نَوْفَلِ بْنُ أُهَيْبِ بْنِ عَبْدِ مَنَافِ بْنِ زُهْرَةَ، وَعَمْرُو بْنُ الْعَاصِ بْنِ وَائِلِ بْنِ هِشَامٍ."
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira: Ghazwat Badr al-Kubra (departure from Madinah)",
+        "url": "https://shamela.ws/book/23833/635",
+        "supports": "The Prophet ﷺ left Madinah in Ramadan with his companions; Ibn Hisham says 8 nights into Ramadan (the edition's footnote says another report gives the 12th night).",
+        "verified": true,
+        "location": "Sirat Ibn Hisham, ed. al-Saqqa et al. (shamela.ws book 23833), ج1 ص612, chapter 'غزوة بدر الكبرى' > 'خروج رسول الله صلى الله عليه وسلم'",
+        "arabic": "قَالَ ابْنُ إسْحَاقَ: وَخَرَجَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ فِي لَيَالٍ مَضَتْ مِنْ شَهْرِ رَمَضَانَ [٤] فِي أَصْحَابِهِ- قَالَ ابْنُ هِشَامٍ: خَرَجَ (يَوْمَ الِاثْنَيْنِ) [٣] لِثَمَانِ لَيَالٍ خَلَوْنَ مِنْ شَهْرِ رَمَضَانَ- وَاسْتَعْمَلَ عَمْرُو بْنُ أُمِّ مَكْتُومٍ- وَيُقَالُ اسْمُهُ: عَبْدُ اللَّهِ بْنُ أُمِّ مَكْتُومٍ أَخَا بَنِي عَامِرِ بْنِ لُؤَيٍّ، عَلَى الصَّلَاةِ بِالنَّاسِ، ثُمَّ رَدَّ أَبَا لُبَابَةَ مِنْ الرَّوْحَاءِ، وَاسْتَعْمَلَهُ عَلَى الْمَدِينَةِ."
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira: Ghazwat Badr al-Kubra (date of the battle)",
+        "url": "https://shamela.ws/book/23833/649",
+        "supports": "The battle of Badr was on Friday morning, 17 Ramadan (Ibn Ishaq, from Abu Jafar Muhammad ibn Ali ibn al-Husayn).",
+        "verified": true,
+        "location": "Sirat Ibn Hisham, ed. al-Saqqa et al. (shamela.ws book 23833), ج1 ص626 (page titled 'ابن غزية وضرب الرسول له في بطنه بالقدح'; the sentence sits just before that sub-heading), within chapter 'غزوة بدر الكبرى'",
+        "arabic": "فَكَانَتْ وَقْعَةُ بَدْرٍ يَوْمَ الْجُمُعَةِ صَبِيحَةَ سَبْعَ عَشْرَةَ مِنْ شَهْرِ رَمَضَانَ.\n\nقَالَ ابْنُ إسْحَاقَ: كَمَا حَدَّثَنِي أَبُو جَعْفَرٍ مُحَمَّدُ بْنُ عَلِيِّ بْنِ الْحُسَيْنِ."
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira: Ghazwat Badr al-Kubra (number at Badr)",
+        "url": "https://shamela.ws/book/23833/729",
+        "supports": "In total 314 Muslims are counted for Badr (83 Muhajirun, 61 Aws, 170 Khazraj), including those who were given a share though absent.",
+        "verified": true,
+        "location": "Sirat Ibn Hisham, ed. al-Saqqa et al. (shamela.ws book 23833), ج1 ص706, chapter 'غزوة بدر الكبرى' > 'عدد البدريين جميعا' (page opens under 'من فات ابن إسحاق ذكرهم')",
+        "arabic": "قَالَ ابْنُ إسْحَاقَ: فَجَمِيعُ مَنْ شَهِدَ بَدْرًا مِنْ الْمُسْلِمِينَ، مِنْ الْمُهَاجِرِينَ وَالْأَنْصَارِ مَنْ شَهِدَهَا مِنْهُمْ، وَمَنْ ضُرِبَ لَهُ بسهمه وأجره، ثَلَاث ماِئَةِ رَجُلٍ وَأَرْبَعَةَ عَشَرَ رَجُلًا، مِنْ الْمُهَاجِرِينَ ثَلَاثَةٌ وَثَمَانُونَ رَجُلًا، وَمِنْ الْأَوْسِ وَاحِدٌ وَسِتُّونَ رَجُلًا، وَمن الْخَزْرَج مائَة وَسَبْعُونَ رَجُلًا."
+      }
+    ],
+    "grade": "A",
+    "verified": true,
+    "scene": "scenes/badr.svg",
+    "dateNote": "Ibn Ishaq/Ibn Hisham and Ibn Kathir give Friday morning, 17 Ramadan 2 AH (the CE year is a modern conversion, about mid-March 624), though Ibn Kathir also quotes reports pointing near the 19th and the departure date from Madinah is given as the 8th or 12th of Ramadan.",
+    "gradeReason": "The Quran (3:123, 8:7-10, 8:41-44) and sahih hadith (Sahih Muslim 1763, Sahih al-Bukhari 3951-3959) support the event, and Ibn Kathir and Ibn Hisham agree, though exact numbers (313/314/319 Muslims, about 900-1000 Quraysh, seventy captives against lower counts in some reports) and the day of the month vary slightly."
+  },
+  {
+    "id": "conquest",
+    "order": 5,
+    "major": true,
+    "title": "Conquest of Makkah",
+    "ce": "630",
+    "ah": "8 AH",
+    "place": {
+      "name": "Makkah",
+      "lat": 21.4225,
+      "lng": 39.8262
+    },
+    "short": "In Ramadan, the Prophet ﷺ returned to Makkah with a big army. He cleared the Kaaba of idols and forgave the people of Makkah.",
+    "full": "Quraysh had helped attack Khuza'a, who were allied with the Muslims, so the Hudaybiyyah truce was broken. In Ramadan 8 AH the Prophet ﷺ left Madinah with about ten thousand Muslims. Abu Sufyan accepted Islam on the way, and the Prophet ﷺ said anyone in Abu Sufyan's house, or behind a closed door, would be safe. After a brief clash at the edge of Makkah, he entered, circled the Kaaba, and struck the 360 idols around it with a stick, saying, \"Truth has come and falsehood has vanished.\" Pictures inside the Kaaba were removed. He then asked Quraysh what they expected, and told them, \"Go, you are free.\"",
+    "refs": [
+      {
+        "type": "quran",
+        "label": "Quran 110:1-2 (Surah An-Nasr)",
+        "url": "https://quran.com/110",
+        "supports": "Surah An-Nasr speaks of Allah's help and the victory, and of people entering Allah's religion in crowds; Ibn Abbas (Bukhari 4294) explains this victory as the conquest of Makkah.",
+        "verified": true
+      },
+      {
+        "type": "quran",
+        "label": "Quran 17:81",
+        "url": "https://quran.com/17/81",
+        "supports": "The verse the Prophet ﷺ recited at the idols: 'The truth has come and falsehood has vanished. Indeed, falsehood is bound to vanish.'",
+        "verified": true
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 4294",
+        "url": "https://sunnah.com/bukhari:4294",
+        "supports": "Ibn Abbas tells Umar that Surah An-Nasr ('help of Allah and the Conquest') refers to the conquest of Makkah, a sign of the Prophet's ﷺ approaching death.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 4276",
+        "url": "https://sunnah.com/bukhari:4276",
+        "supports": "The Prophet ﷺ left Madinah for Makkah in Ramadan with ten thousand Muslims; he fasted, then broke the fast at al-Kadid.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 4280",
+        "url": "https://sunnah.com/bukhari:4280",
+        "supports": "Abu Sufyan, Hakim ibn Hizam and Budayl ibn Warqa met the army at Marr az-Zahran and Abu Sufyan accepted Islam; the army passed him in batches; the Prophet ﷺ entered Makkah and two of Khalid's cavalry were martyred that day.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 4287",
+        "url": "https://sunnah.com/bukhari:4287",
+        "supports": "On the day of the Conquest there were 360 idols around the Kaaba; the Prophet ﷺ struck them with a stick, saying 'Truth has come and Falsehood will neither start nor will it reappear.'",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 4720",
+        "url": "https://sunnah.com/bukhari:4720",
+        "supports": "Abdullah ibn Mas'ud: the Prophet ﷺ entered Makkah with 360 idols around the Kaaba and struck them with a stick, reciting Quran 17:81 and 34:49.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 4288",
+        "url": "https://sunnah.com/bukhari:4288",
+        "supports": "Ibn Abbas: the Prophet ﷺ would not enter the Kaaba while idols were in it, so they were taken out, including pictures of Ibrahim and Ismail holding divination arrows; he then entered, said Allahu Akbar in all its directions, and came out.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih Muslim 1780a",
+        "url": "https://sunnah.com/muslim:1780a",
+        "supports": "Abu Huraira's account of the Conquest: the army entered with commanders on the flanks, 'Who enters the house of Abu Sufyan, he will be safe', the Prophet ﷺ kissed the Black Stone, circled the Kaaba, struck an idol with a bow saying 'Truth has been established and falsehood has perished', then prayed on as-Safa.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih Muslim 1781a",
+        "url": "https://sunnah.com/muslim:1781a",
+        "supports": "Second sahih collection for the 360 idols around the Kaaba, struck with a stick while reciting 'Truth has come and falsehood has vanished'.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sunan Abi Dawud 3021",
+        "url": "https://sunnah.com/abudawud:3021",
+        "supports": "Al-Abbas brought Abu Sufyan, who accepted Islam at Marr az-Zahran; the Prophet ﷺ said whoever enters Abu Sufyan's house is safe and whoever closes his door is safe.",
+        "verified": true,
+        "grade": "Hasan (al-Albani)"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya 4/301 - idols around the Kaaba",
+        "url": "https://shamela.ws/book/23708/1340",
+        "supports": "Ibn Kathir reports (quoting Bukhari, via Ibn Mas'ud) that on the day of the conquest there were 360 idols around the Kaaba and the Prophet ﷺ struck them with a stick saying 'Truth has come and falsehood has vanished'.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, vol. 4, p. 301 (Dar al-Sa'ada edition as shown on shamela.ws); chapter 'صفة دخوله ﵇ مكة' (the manner of his entry into Makkah), within the Ghazwat al-Fath of Ramadan 8 AH",
+        "arabic": "دخل رسول الله ﷺ مكة يوم الفتح وحول البيت ستون وثلاثمائة نصب، فجعل يطعنها بعود في يده ويقول «جاء الحق وزهق الباطل، جاء الحق وما يبدي الباطل وما يعيد»"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya 4/301 - 'Go, you are the freed ones'",
+        "url": "https://shamela.ws/book/23708/1340",
+        "supports": "After addressing Quraysh at the Kaaba, the Prophet ﷺ asked what they thought he would do with them; they said good, a noble brother and son of a noble brother; he said 'Go, for you are the freed ones'.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, vol. 4, p. 301 (Dar al-Sa'ada edition as shown on shamela.ws); chapter 'صفة دخوله ﵇ مكة'",
+        "arabic": "ثم قال «يا معشر قريش ما ترون أنى فاعل فيكم؟» قالوا خيرا أخ كريم وابن أخ كريم، قال «اذهبوا فأنتم الطلقاء»"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya 4/304 - clash at al-Khandama",
+        "url": "https://shamela.ws/book/23708/1343",
+        "supports": "There was a fight at al-Khandama in which about twenty people from both sides were killed; most scholars took this as evidence that Makkah was taken by force.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, vol. 4, p. 304 (Dar al-Sa'ada edition as shown on shamela.ws); chapter 'صفة دخوله ﵇ مكة'",
+        "arabic": "وبهذا وأمثاله استدل من ذهب إلى أن مكة فتحت عنوة، وللوقعة التي كانت في الخندمة كما تقدم. وقد قتل فيها قريب من عشرين نفسا من المسلمين والمشركين"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya 4/305 - safety for Abu Sufyan's house",
+        "url": "https://shamela.ws/book/23708/1344",
+        "supports": "On the night before the conquest the Prophet ﷺ said: whoever enters Abu Sufyan's house is safe, whoever enters the Haram is safe, whoever closes his door is safe.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, vol. 4, p. 305 (Dar al-Sa'ada edition as shown on shamela.ws); chapter 'صفة دخوله ﵇ مكة'",
+        "arabic": "ولقوله ﷺ ليلة الفتح «من دخل دار أبى سفيان فهو آمن، ومن دخل الحرم فهو آمن، ومن أغلق بابه فهو آمن»"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya 4 - cause: Quraysh help Banu Bakr against Khuza'a",
+        "url": "https://ar.wikisource.org/wiki/البداية_والنهاية/الجزء_الرابع/غزوة_الفتح_الأعظم_وكانت_في_رمضان_سنة_ثمان",
+        "supports": "After Hudaybiyyah, Banu Bakr attacked Khuza'a (in the Prophet's ﷺ pact) at al-Watir and Quraysh helped them with horses and weapons, which led to the Prophet ﷺ preparing for Makkah.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, Part 4 (الجزء الرابع), chapter 'غزوة الفتح الأعظم وكانت في رمضان سنة ثمان' (Arabic Wikisource transcription; the print edition is not named on the page)",
+        "arabic": "وقالت قريش: ما يعلم بنا محمد وهذا الليل، وما يرانا من أحد فأعانوهم عليهم بالكراع والسلاح، وقاتلوهم معهم للضغن على رسول الله ﷺ"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya 4 - departure on 10 Ramadan and army size",
+        "url": "https://ar.wikisource.org/wiki/البداية_والنهاية/الجزء_الرابع/فصل_استخلاف_كلثوم_بن_حصين_الغفاري_على_المدينة",
+        "supports": "Ibn Ishaq (from Ibn Abbas): the Prophet ﷺ left on the tenth of Ramadan, fasted until al-Kadid, then broke his fast and camped at Marr az-Zahran with ten thousand Muslims; Urwa ibn al-Zubayr said twelve thousand.",
+        "verified": true,
+        "location": "al-Bidaya wa'l-Nihaya, Part 4 (الجزء الرابع), chapter 'فصل استخلاف كلثوم بن حصين الغفاري على المدينة' (Arabic Wikisource transcription)",
+        "arabic": "وخرج لعشر مضين من شهر رمضان، فصام وصام الناس معه حتى إذا كان بالكديد بين عسفان وأمج، أفطر. ثم مضى حتى نزل مر الظهران في عشرة آلاف من المسلمين. وقال عروة بن الزبير: كان معه اثنا عشر ألفا."
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira al-Nabawiyya 2/399 - departure in Ramadan",
+        "url": "https://shamela.ws/book/23833/1136",
+        "supports": "Ibn Ishaq (from Ibn Abbas): the Prophet ﷺ left Madinah, appointing Kulthum ibn Husayn al-Ghifari, on the tenth of Ramadan.",
+        "verified": true,
+        "location": "Sirat Ibn Hisham, ed. al-Saqqa, al-Abyari and Shalabi, vol. 2, p. 399; section heading 'خروج الرسول في رمضان واستخلافه أبارهم', within 'ذكر الأسباب الموجبة المسير إلى مكة وذكر فتح مكة في شهر رمضان سنة ثمان'",
+        "arabic": "وَاسْتَخْلَفَ على الْمَدِينَة أبارهم، كُلْثُومَ بْنَ حُصَيْنِ ابْن عُتْبَةَ بْنِ خَلَفٍ الْغِفَارِيَّ، وَخَرَجَ لِعَشْرٍ مَضَيْنَ مِنْ رَمَضَانَ"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira al-Nabawiyya 2/412 - 'Go, you are the freed ones'",
+        "url": "https://shamela.ws/book/23833/1149",
+        "supports": "Ibn Ishaq: the Prophet ﷺ stood at the door of the Kaaba and asked Quraysh what they thought he would do; they answered good, a noble brother and son of a noble brother; he said 'Go, for you are the freed ones'.",
+        "verified": true,
+        "location": "Sirat Ibn Hisham, ed. al-Saqqa, al-Abyari and Shalabi, vol. 2, p. 412; just before the section 'إقرار الرسول بن طلحة على السدانة', within 'ذكر الأسباب الموجبة المسير إلى مكة وذكر فتح مكة في شهر رمضان سنة ثمان'",
+        "arabic": "ثُمَّ قَالَ: يَا مَعْشَرَ قُرَيْشٍ، مَا تُرَوْنَ أَنِّي فَاعِلٌ فِيكُمْ؟ قَالُوا: خَيْرًا، أَخٌ كَرِيمٌ، وَابْنُ أَخٍ كَرِيمٍ، قَالَ: اذْهَبُوا فَأَنْتُمْ الطُّلَقَاءُ"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham, al-Sira al-Nabawiyya 2/417 - idols fall at the Kaaba",
+        "url": "https://shamela.ws/book/23833/1154",
+        "supports": "Ibn Abbas (report with an unnamed narrator): the Prophet ﷺ entered Makkah on his mount, circled the Kaaba, and pointed with a stick at the idols around it, reciting 'Truth has come and falsehood has vanished', and each idol fell.",
+        "verified": true,
+        "location": "Sirat Ibn Hisham, ed. al-Saqqa, al-Abyari and Shalabi, vol. 2, p. 417 (heading 'سقوط أصنام الكعبة بإشارة من الرسول' starts at the end of p. 416); within 'ذكر الأسباب الموجبة المسير إلى مكة وذكر فتح مكة في شهر رمضان سنة ثمان'",
+        "arabic": "دَخَلَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ مَكَّةَ يَوْمَ الْفَتْحِ عَلَى رَاحِلَتِهِ، فَطَافَ عَلَيْهَا وَحَوْلَ الْبَيْتِ أَصْنَامٌ مَشْدُودَةٌ بِالرَّصَاصِ، فَجَعَلَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يُشِيرُ بِقَضِيبِ فِي يَدِهِ إلَى الْأَصْنَامِ وَيَقُولُ «جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ إنَّ الْبَاطِلَ كَانَ زَهُوقًا» فَمَا أَشَارَ إلَى صَنَمٍ مِنْهَا فِي وَجْهِهِ إلَّا وَقَعَ لِقَفَاهُ، وَلَا أَشَارَ إلَى قَفَاهُ إلَّا وَقَعَ لِوَجْهِهِ، حَتَّى مَا بَقِيَ مِنْهَا صَنَمٌ إلَّا وَقَعَ"
+      }
+    ],
+    "grade": "A",
+    "verified": true,
+    "scene": "scenes/conquest.svg",
+    "dateNote": "Sources agree it was Ramadan 8 AH; Ibn Ishaq (via Ibn Hisham and Ibn Kathir) says the army left Madinah on 10 Ramadan, army size is given as 10,000 (Bukhari 4276, Ibn Ishaq) or 12,000 (Urwa, al-Zuhri, Musa ibn Uqba), the exact day of entry is not fixed in the sources opened, and 630 CE (about January) is a calendar conversion, not stated in them.",
+    "gradeReason": "Sahih al-Bukhari and Sahih Muslim report the Ramadan march, the 360 idols and safety for those in Abu Sufyan's house, and Bukhari 4294 ties Surah An-Nasr to the conquest; only the exact words 'Go, you are free' rest on Ibn Ishaq (Ibn Hisham, Ibn Kathir) with an unnamed narrator."
+  },
+  {
+    "id": "farewell",
+    "order": 6,
+    "major": true,
+    "title": "Farewell Pilgrimage",
+    "ce": "632",
+    "ah": "10 AH",
+    "place": {
+      "name": "Arafat",
+      "lat": 21.3549,
+      "lng": 39.984
+    },
+    "short": "In his last Hajj, the Prophet ﷺ told a great crowd at Arafat: protect each other's lives and wealth, and hold to the Quran.",
+    "full": "For nine years in Madinah the Prophet ﷺ did not perform Hajj. In 10 AH he announced that he would go, and a great crowd joined him. At Arafat he gave a sermon and said people's blood and wealth are sacred, like that day, that month and that city. He ended old blood feuds and interest, told men to treat women well, and said he was leaving them the Book of Allah. Asked what they would say about him, the people said he had delivered the message. It was the only Hajj he made after moving to Madinah, so it is called the Farewell Hajj. At Arafat the verse 'Today I have perfected your faith for you' was revealed.",
+    "refs": [
+      {
+        "type": "quran",
+        "label": "Quran 5:3",
+        "url": "https://quran.com/5/3",
+        "supports": "The verse 'Today I have perfected your faith for you, completed My favour upon you, and chosen Islam as your way.' The page itself does not say when it was revealed; that it came at Arafat is backed by the Ibn Kathir (Umar) ref below.",
+        "verified": true
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih Muslim 1218a (Jabir, the Hajj of the Prophet)",
+        "url": "https://sunnah.com/muslim:1218a",
+        "supports": "Jabir's long report: he stayed nine years without Hajj, announced Hajj in the tenth year, a great crowd came to follow him; at Arafat he addressed the people ('your blood and your property are sacred and inviolable like this day, this month, this town'), abolished Jahiliyya blood-revenge and interest, enjoined good treatment of women, said 'I have left among you the Book of Allah', and the people testified he had conveyed the message.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "hadith",
+        "label": "Sahih al-Bukhari 1739 (Ibn Abbas, sermon on the Day of Nahr)",
+        "url": "https://sunnah.com/bukhari:1739",
+        "supports": "A second sermon of the same pilgrimage, on the Day of Nahr at Mina: the people name the day, the town and the month as sacred, and he says their blood, property and honour are sacred to each other like this day, town and month; he asks 'have I conveyed?'; 'let the one present convey to the one absent'. Chapter: al-Khutba during the Days of Mina. That it belongs to the Farewell Hajj comes from Ibn Kathir placing it there.",
+        "verified": true,
+        "grade": null
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir, al-Bidaya wa'l-Nihaya: Book of the Farewell Hajj, 10 AH (introduction)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3/%D9%83%D8%AA%D8%A7%D8%A8_%D8%AD%D8%AC%D8%A9_%D8%A7%D9%84%D9%88%D8%AF%D8%A7%D8%B9_%D9%81%D9%8A_%D8%B3%D9%86%D8%A9_%D8%B9%D8%B4%D8%B1",
+        "supports": "The pilgrimage is in the year 10 AH; it is called Hajjat al-Balagh, Hajjat al-Islam and Hajjat al-Wada because he bid the people farewell and did not perform Hajj after it; it was his only Hajj from Madinah (he had performed Hajj before the Hijrah).",
+        "verified": true,
+        "location": "Part 5 (الجزء الخامس, as divided on Arabic Wikisource; print volume numbers differ by edition), chapter: كتاب حجة الوداع في سنة عشر",
+        "arabic": "ويقال لها: حجة البلاغ، وحجة الإسلام، وحجة الوداع. لأنه عليه الصلاة والسلام ودع الناس فيها ولم يحج بعدها. وسميت: حجة الإسلام، لأنه عليه السلام لم يحج من المدينة غيرها"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir: nine years in Madinah, the announcement, and the departure (Jabir)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3/%D8%A8%D8%A7%D8%A8_%D8%A8%D9%8A%D8%A7%D9%86_%D8%A3%D9%86%D9%87_%D8%B9%D9%84%D9%8A%D9%87_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_%D9%84%D9%85_%D9%8A%D8%AD%D8%AC_%D9%85%D9%86_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A5%D9%84%D8%A7_%D8%AD%D8%AC%D8%A9_%D9%88%D8%A7%D8%AD%D8%AF%D8%A9",
+        "supports": "Jabir: the Prophet ﷺ stayed nine years in Madinah without Hajj, then announced Hajj; a large crowd gathered; he set out five (or four) nights before the end of Dhul Qa'dah.",
+        "verified": true,
+        "location": "Part 5 (Arabic Wikisource), chapter: باب بيان أنه عليه السلام لم يحج من المدينة إلا حجة واحدة (under كتاب حجة الوداع في سنة عشر)",
+        "arabic": "أقام رسول الله ﷺ بالمدينة تسع سنين لم يحج، ثم أذن في الناس بالحج، فاجتمع بالمدينة بشر كثير، فخرج رسول الله ﷺ لخمس بقين من ذي القعدة، أو لأربع"
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir: Quran 5:3 revealed at Arafat on a Friday (Umar)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3/%D8%B0%D9%83%D8%B1_%D9%85%D8%A7_%D9%86%D8%B2%D9%84_%D8%B9%D9%84%D9%89_%D8%B1%D8%B3%D9%88%D9%84_%D8%A7%D9%84%D9%84%D9%87_%D9%85%D9%86_%D8%A7%D9%84%D9%88%D8%AD%D9%8A_%D9%81%D9%8A_%D9%87%D8%B0%D8%A7_%D8%A7%D9%84%D9%85%D9%88%D9%82%D9%81",
+        "supports": "Umar says he knows the day and hour 'Today I have perfected your religion' was revealed to the Prophet ﷺ: the evening of Arafat, on a Friday; Ibn Kathir adds it is also in Bukhari, Muslim, Tirmidhi and Nasa'i.",
+        "verified": true,
+        "location": "Part 5 (Arabic Wikisource), chapter: ذكر ما نزل على رسول الله من الوحي في هذا الموقف (under كتاب حجة الوداع في سنة عشر)",
+        "arabic": "فقال عمر: والله إني لأعلم اليوم الذي نزلت على رسول الله ﷺ، والساعة التي نزلت فيها على رسول الله ﷺ عشية عرفة في يوم جمعة. ورواه البخاري عن الحسن بن الصباح، عن جعفر بن عون. وأخرجه أيضا مسلم والترمذي، والنسائي من طرق عن قيس بن مسلم به."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir: the sermon at Arafat (Jabir's report)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3/%D9%81%D8%B5%D9%84_%D8%B5%D9%84%D8%A7%D8%AA%D9%87_%D8%B5%D9%84%D9%89_%D8%A7%D9%84%D9%84%D9%87_%D8%B9%D9%84%D9%8A%D9%87_%D9%88%D8%B3%D9%84%D9%85_%D8%A8%D8%A7%D9%84%D8%A3%D8%A8%D8%B7%D8%AD_%D8%A7%D9%84%D8%B5%D8%A8%D8%AD_%D9%88%D9%87%D9%88_%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D8%AA%D8%B1%D9%88%D9%8A%D8%A9",
+        "supports": "At Arafat, after the sun passed noon, he came to the bottom of the valley and addressed the people: blood and property sacred like this day, month and town; Jahiliyya matters and blood-revenge abolished; Jahiliyya interest abolished; fear Allah regarding women; 'I have left among you ... the Book of Allah'; the people testify he conveyed, fulfilled the trust and advised.",
+        "verified": true,
+        "location": "Part 5 (Arabic Wikisource), page titled فصل صلاته صلى الله عليه وسلم بالأبطح الصبح وهو يوم التروية (the page runs from the 8th of Dhul Hijjah through Arafat; the passage sits where Ibn Kathir recalls Jabir's hadith)",
+        "arabic": "فأجاز رسول الله ﷺ حتى أتى عرفة فوجد القبة قد ضربت له بنمرة فنزل بها، حتى إذا زاغت الشمس أمر بالقصواء فرحلت له فأتى بطن الوادي فخطب الناس وقال: «إن دماءكم وأموالكم حرام عليكم كحرمة يومكم هذا، في شهركم هذا، في بلدكم هذا، ألا كل شيء من أمر الجاهلية موضوع تحت قدمي، ودماء الجاهلية موضوعة، وإن أول دم أضع من دمائنا دم ابن ربيعة بن الحارث، وكان مسترضعا في بني سعد فقتلته هذيل، وربا الجاهلية موضوع، وأول ربا أضع من ربانا ربا العباس بن عبد المطلب، فإنه موضوع كله، واتقوا الله في النساء، فإنكم أخذتموهن بأمانة الله، واستحللتم فروجهن بكلمة الله، ولكم عليهن أن لا يوطئن فرشكم أحد تكرهونه، فإن فعلن ذلك فاضربوهن ضربا غير مبرح، ولهن عليكم رزقهن وكسوتهن بالمعروف، وقد تركت فيكم ما لن تضلوا بعدي إن اعتصمتم به، كتاب الله، وأنتم تسألون عني فما أنتم قائلون؟» قالوا: نشهد أنك قد بلغت وأديت، ونصحت."
+      },
+      {
+        "type": "ibn_kathir",
+        "label": "Ibn Kathir: Arafat fell on a Friday, 9 Dhul Hijjah (date discussion)",
+        "url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3/%D8%A8%D8%A7%D8%A8_%D8%AE%D8%B1%D9%88%D8%AC%D9%87_%D8%B9%D9%84%D9%8A%D9%87_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_%D9%85%D9%86_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D9%84%D8%AD%D8%AC%D8%A9_%D8%A7%D9%84%D9%88%D8%AF%D8%A7%D8%B9",
+        "supports": "States there is no dispute that he stood at Arafat on Friday, 9 Dhul Hijjah (so 1 Dhul Hijjah was a Thursday); the same chapter notes Ibn Hazm said he left Madinah on a Thursday while Ibn Kathir concludes Saturday.",
+        "verified": true,
+        "location": "Part 5 (Arabic Wikisource), chapter: باب خروجه عليه السلام من المدينة لحجة الوداع (under كتاب حجة الوداع في سنة عشر)",
+        "arabic": "لأنه لا خلاف أن أول ذي الحجة كان يوم الخميس، لما ثبت بالتواتر والإجماع من أنه عليه السلام وقف بعرفة يوم الجمعة، وهو تاسع ذي الحجة بلا نزاع"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham (from Ibn Ishaq): preparing for Hajj and leaving Madinah",
+        "url": "https://www.islamweb.net/ar/library/index.php?page=bookcontents&ID=1567&flag=1&bk_no=58",
+        "supports": "When Dhul Qa'dah began the Prophet ﷺ prepared for Hajj and told the people to prepare; Aisha says he set out for Hajj five nights before the end of Dhul Qa'dah.",
+        "verified": true,
+        "location": "Sirat Ibn Hisham (السيرة النبوية), Islamweb library edition (bk_no=58), Part 2 from p. 601, chapter: حجة الوداع, section: تجهز الرسول واستعماله على المدينة أبا دجانة",
+        "arabic": "قال ابن إسحاق : فلما دخل على رسول الله صلى الله عليه وسلم ذو القعدة ، تجهز للحج ، وأمر الناس بالجهاز له . قال ابن إسحاق : فحدثني عبد الرحمن بن القاسم ، عن أبيه القاسم بن محمد ، عن عائشة زوج النبي صلى الله عليه وسلم ، قالت : خرج رسول الله صلى الله عليه وسلم إلى الحج لخمس ليال بقين من ذي القعدة"
+      },
+      {
+        "type": "ibn_hisham",
+        "label": "Ibn Hisham (from Ibn Ishaq): the Farewell Hajj sermon",
+        "url": "https://www.islamweb.net/ar/library/index.php?page=bookcontents&ID=1571&flag=1&bk_no=58",
+        "supports": "Ibn Ishaq: he led the people through the rites, then gave the sermon: 'Listen to my words, I may not meet you again in this place after this year'; blood and property are sacred until you meet your Lord; 'have I conveyed?'. The next sections of Ibn Hisham (IDs 1572 and 1573 on the same site) place the Prophet ﷺ at Arafat and record two more sayings there.",
+        "verified": true,
+        "location": "Sirat Ibn Hisham (السيرة النبوية), Islamweb library edition (bk_no=58), Part 2, about pp. 603-605 (page markers [ص: 604] and [ص: 605] appear in the text), chapter: حجة الوداع, section: خطبة الرسول في حجة الوداع",
+        "arabic": "ثم مضى رسول الله صلى الله عليه وسلم على حجه ، فأرى الناس مناسكهم ، وأعلمهم سنن حجهم ، وخطب الناس خطبته التي بين فيها ما بين ، فحمد الله وأثنى عليه ، ثم قال : أيها الناس ، اسمعوا قولي ، فإني لا أدري لعلي لا ألقاكم بعد عامي هذا بهذا الموقف أبدا ؛ أيها الناس ، إن دماءكم وأموالكم عليكم حرام إلى أن تلقوا ربكم ، كحرمة يومكم هذا ، وكحرمة شهركم هذا ، وإنكم ستلقون ربكم ، فيسألكم عن أعمالكم ، وقد بلغت"
+      }
+    ],
+    "grade": "A",
+    "verified": true,
+    "scene": "scenes/farewell.svg",
+    "dateNote": "Sources give the year as 10 AH and the day of Arafat as Friday, 9 Dhul Hijjah (Ibn Kathir: no dispute), while the day he left Madinah is debated (Thursday per Ibn Hazm, Saturday per Ibn Kathir), and 632 CE (about early March, Julian calendar) is a modern conversion that none of these sources state.",
+    "gradeReason": "Quran 5:3 and the reports in Sahih Muslim 1218 and Sahih al-Bukhari 1739 support it, and Ibn Kathir and Ibn Hisham agree; sunnah.com shows no grade line on either hadith page."
+  }
+]
