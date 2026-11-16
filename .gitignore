@@ -5,6 +5,8 @@
 !design/tokens.json
 !package.json
 !tsconfig.json
+!tarikh-poc/src/events.json
+!tarikh-poc/package-lock.json
 google_app_credentials*.json
 
 # Python
