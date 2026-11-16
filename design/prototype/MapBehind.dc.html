@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Angled timeline over a map</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Baloo+Bhaijaan+2:wght@500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#16324A;text-decoration:none}a:hover{color:#0B1E2E}
+</style>
+</helmet>
+<div onPointerDown="{{ down }}" onPointerMove="{{ move }}" onPointerUp="{{ up }}" onPointerLeave="{{ up }}" onPointerCancel="{{ up }}" onWheel="{{ wheel }}" style="position: relative; width: 390px; height: 844px; box-sizing: border-box; background: #0E2233; color: #FFFFFF; font-family: 'Nunito', system-ui, sans-serif; overflow: hidden; touch-action: none; user-select: none; cursor: grab">
+
+<div aria-hidden="true" style="position: absolute; left: 0; top: 0; width: 900px; height: 2000px; opacity: {{ mapOp }}; transform-origin: 0 0; transform: {{ mapTf }}; transition: transform 1s ease-in-out, opacity 0.6s ease">
+<svg width="900" height="2000" viewBox="0 0 900 2000" style="display: block; overflow: visible">
+<path d="M0 100 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 200 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 300 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 400 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 500 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 600 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 700 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 800 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 900 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1000 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1100 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1200 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1300 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1400 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1500 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1600 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1700 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1800 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M0 1900 H900" stroke="#16324A" stroke-width="1"></path>
+<path d="M93 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M186 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M279 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M372 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M465 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M558 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M651 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M744 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M837 0 V2000" stroke="#16324A" stroke-width="1"></path>
+<path d="M93 300 L233 630 L377 840 L465 970 L481 1100 L583 1235 L658 1337 L795 1560 L874 1980 L813 1950 L507 1690 L298 1290 L140 860 L26 640 L-19 525 L-40 430 L23 480 Z" fill="#0A1A28" stroke="#2E5673" stroke-width="2" stroke-linejoin="round"></path>
+<path d="M-60 150 L42 100 L70 45 L85 0 L-60 0 Z" fill="#0A1A28" stroke="#2E5673" stroke-width="2" stroke-linejoin="round"></path>
+<text x="360" y="1160" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" font-style="italic" fill="#5E86A3">Red Sea</text>
+</svg>
+</div>
+<sc-for list="{{ places }}" as="pl" hint-placeholder-count="6">
+<div aria-hidden="true" style="position: absolute; left: 0; top: 0; width: 0; height: 0; transform: {{ pl.tf }}; opacity: {{ pl.op }}; transition: transform 1s ease-in-out, opacity 0.6s ease; pointer-events: none">
+<span style="position: absolute; left: -4px; top: -4px; width: 8px; height: 8px; border-radius: 50%; background: #4E7896"></span>
+<div style="position: absolute; width: 150px; left: {{ pl.ll }}; right: {{ pl.lr }}; top: {{ pl.lt }}; text-align: {{ pl.la }}; font-size: 13px; font-weight: 700; line-height: 18px; color: #7FA3BD">{{ pl.name }}</div>
+</div>
+</sc-for>
+<div aria-hidden="true" style="position: absolute; left: 188px; top: 393px; width: 14px; height: 14px; border-radius: 50%; background: #FFFBE0; box-shadow: 0 0 14px 9px rgba(255,236,150,0.85), 0 0 44px 26px rgba(255,224,120,0.4)"></div>
+
+<div aria-hidden="true" style="position: absolute; left: -605px; top: 398px; width: 1600px; height: 4px; border-radius: 2px; background: #F7C948; transform: rotate(-60deg)"></div>
+
+<sc-for list="{{ items }}" as="item" hint-placeholder-count="5">
+<div style="position: absolute; left: 0; top: 0; width: 0; height: 0; transform: {{ item.tf }}; opacity: {{ item.op }}; transition: {{ item.tr }}; pointer-events: {{ item.pe }}">
+<button type="button" aria-label="{{ item.aria }}" onClick="{{ item.pick }}" style="position: absolute; left: -22px; top: -22px; width: 44px; height: 44px; padding: 0; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer">
+<span style="display: block; width: {{ item.sz }}px; height: {{ item.sz }}px; border-radius: 50%; background: {{ item.bg }}; border: 4px solid #0E2233; box-shadow: {{ item.ring }}; box-sizing: content-box"></span>
+</button>
+<div style="position: absolute; width: 136px; left: {{ item.ll }}; right: {{ item.lr }}; top: {{ item.lt }}; text-align: {{ item.la }}; pointer-events: none">
+<div style="font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 17px; line-height: 20px; color: #F7C948">{{ item.y }}</div>
+<div style="font-size: 15px; font-weight: 700; line-height: 19px; color: #FFFFFF">{{ item.title }}</div>
+</div>
+</div>
+</sc-for>
+
+<div style="position: absolute; left: 0; top: 0; width: 390px; box-sizing: border-box; padding: 22px 24px 18px 24px; background: #0E2233; display: flex; flex-direction: column; gap: 4px; pointer-events: none">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: #9FC2D8">SEERAH TIMELINE</div>
+<div lang="ar" dir="rtl" style="font-family: 'Baloo Bhaijaan 2', sans-serif; font-weight: 700; font-size: 18px; color: #7FD3DE">تاريخ</div>
+</div>
+<div style="font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 44px; line-height: 48px; color: #FFFFFF">{{ curYear }}</div>
+<div style="display: flex; gap: 8px; font-size: 15px">
+<span style="font-weight: 700; color: #F7C948">{{ curAh }}</span>
+<span style="color: #C9DCE8">{{ curEra }}</span>
+</div>
+<div aria-hidden="true" style="display: flex; align-items: center; gap: 5px; margin-top: 8px">
+<sc-for list="{{ dots }}" as="dot" hint-placeholder-count="13">
+<span style="display: block; height: 6px; width: {{ dot.w }}px; border-radius: 3px; background: {{ dot.bg }}"></span>
+</sc-for>
+</div>
+</div>
+
+<a href="Event.dc.html" onClick="{{ guard }}" style="position: absolute; left: 20px; right: 20px; bottom: 22px; min-height: 104px; box-sizing: border-box; padding: 14px 16px; border-radius: 22px; background: #FFFFFF; color: #16324A; display: flex; align-items: center; gap: 12px; box-shadow: 0 6px 0 #071522">
+<div style="flex-grow: 1; display: flex; flex-direction: column; gap: 2px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.05em; color: #0F6E7C">{{ curType }}</div>
+<div style="font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 22px; line-height: 26px">{{ curTitle }}</div>
+<div lang="ar" dir="rtl" style="font-family: 'Baloo Bhaijaan 2', sans-serif; font-weight: 500; font-size: 17px; color: #0F6E7C; text-align: left">{{ curAr }}</div>
+</div>
+<div style="width: 48px; height: 48px; border-radius: 16px; background: #F7C948; display: flex; align-items: center; justify-content: center; flex-shrink: 0">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16324A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"></path></svg>
+</div>
+</a>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { t: 2, dragging: false };
+this.drag = null;
+this.moved = false;
+}
+events() {
+return [
+{ y: 'c. 570', ce: 'c. 570 CE', ah: 'Before Hijra', era: 'Early life', place: 'Makkah', mx: 542, my: 1108, title: 'Birth of the Prophet ﷺ', ar: 'مولد النبي ﷺ', type: 'BIRTH', major: true },
+{ y: 'c. 595', ce: 'c. 595 CE', ah: 'Before Hijra', era: 'Early life', place: 'Makkah', mx: 542, my: 1108, title: 'Marriage to Khadijah', ar: 'الزواج من خديجة', type: 'FAMILY', major: false },
+{ y: '610', ce: '610 CE', ah: 'Before Hijra', era: 'Makkah period', place: 'Cave of Hira', mx: 544.6, my: 1105, title: 'The first revelation', ar: 'بدء الوحي', type: 'REVELATION', major: true },
+{ y: 'c. 615', ce: 'c. 615 CE', ah: 'Before Hijra', era: 'Makkah period', place: 'Abyssinia', mx: 439, my: 1837, title: 'Migration to Abyssinia', ar: 'الهجرة إلى الحبشة', type: 'MIGRATION', major: false },
+{ y: 'c. 619', ce: 'c. 619 CE', ah: 'Before Hijra', era: 'Makkah period', place: 'Makkah', mx: 542, my: 1108, title: 'The Year of Sorrow', ar: 'عام الحزن', type: 'LOSS', major: false },
+{ y: 'c. 621', ce: 'c. 621 CE', ah: 'Before Hijra', era: 'Makkah period', place: 'Jerusalem', mx: 114, my: 72, title: 'The Night Journey', ar: 'الإسراء والمعراج', type: 'MIRACLE', major: false },
+{ y: '622', ce: '622 CE', ah: '1 AH', era: 'Madinah period', place: 'Madinah', mx: 522, my: 803, title: 'Hijra to Madinah', ar: 'الهجرة إلى المدينة', type: 'MIGRATION', major: true },
+{ y: '624', ce: '624 CE', ah: '2 AH', era: 'Madinah period', place: 'Badr', mx: 445, my: 872, title: 'Battle of Badr', ar: 'غزوة بدر', type: 'BATTLE', major: true },
+{ y: '625', ce: '625 CE', ah: '3 AH', era: 'Madinah period', place: 'Mount Uhud', mx: 522.5, my: 798.5, title: 'Battle of Uhud', ar: 'غزوة أحد', type: 'BATTLE', major: false },
+{ y: '627', ce: '627 CE', ah: '5 AH', era: 'Madinah period', place: 'Madinah', mx: 520.2, my: 801.2, title: 'Battle of the Trench', ar: 'غزوة الخندق', type: 'BATTLE', major: false },
+{ y: '628', ce: '628 CE', ah: '6 AH', era: 'Madinah period', place: 'Hudaybiyyah', mx: 523, my: 1106, title: 'Treaty of Hudaybiyyah', ar: 'صلح الحديبية', type: 'TREATY', major: false },
+{ y: '630', ce: '630 CE', ah: '8 AH', era: 'Madinah period', place: 'Makkah', mx: 542, my: 1108, title: 'Conquest of Makkah', ar: 'فتح مكة', type: 'RETURN', major: true },
+{ y: '632', ce: '632 CE', ah: '10 AH', era: 'Madinah period', place: 'Arafat', mx: 556.5, my: 1115, title: 'The Farewell Pilgrimage', ar: 'حجة الوداع', type: 'PILGRIMAGE', major: true }
+];
+}
+places() {
+return [
+{ name: 'Makkah', x: 542, y: 1108, city: true },
+{ name: 'Madinah', x: 522, y: 803, city: true },
+{ name: 'Badr', x: 445, y: 872 },
+{ name: 'Jerusalem', x: 114, y: 72 },
+{ name: 'Abyssinia', x: 439, y: 1837 },
+{ name: "Ta'if", x: 597, y: 1123, right: true },
+{ name: 'The Kaaba', x: 542, y: 1108, detail: true },
+{ name: 'Cave of Hira', x: 544.6, y: 1105, detail: true, right: true },
+{ name: 'Arafat', x: 556.5, y: 1115, detail: true },
+{ name: 'Hudaybiyyah', x: 523, y: 1106, detail: true, below: true },
+{ name: "The Prophet's Mosque", x: 522, y: 803, detail: true, below: true },
+{ name: 'Mount Uhud', x: 522.5, y: 798.5, detail: true },
+{ name: 'The Trench', x: 520.2, y: 801.2, detail: true },
+{ name: 'Quba', x: 522, y: 806.2, detail: true, right: true }
+];
+}
+clamp(v) {
+return Math.max(0, Math.min(this.events().length - 1, v));
+}
+renderVals() {
+const S = 170, ux = 0.5, uy = -0.866;
+const ev = this.events();
+const t = this.state.t;
+const f = Math.round(this.clamp(t));
+const tr = this.state.dragging ? 'none' : 'transform 0.35s ease, opacity 0.35s ease';
+const items = ev.map((e, i) => {
+const d = i - t;
+const ad = Math.abs(d);
+const focus = i === f;
+const right = i % 2 === 0;
+return {
+tr: tr,
+y: e.y,
+title: e.title,
+aria: e.title + ', ' + e.ce,
+tf: 'translate(' + (195 + d * S * ux) + 'px, ' + (400 + d * S * uy) + 'px)',
+op: ad > 3.2 ? 0 : (focus ? 1 : Math.max(0.5, 0.85 - ad * 0.15)),
+pe: ad > 3.2 ? 'none' : 'auto',
+sz: e.major ? (focus ? 30 : 22) : (focus ? 18 : 10),
+bg: e.major ? '#F7C948' : '#7FD3DE',
+ring: focus ? '0 0 0 7px rgba(247,201,72,0.3)' : 'none',
+ll: right ? '30px' : 'auto',
+lr: right ? 'auto' : '30px',
+lt: right ? '2px' : '-46px',
+la: right ? 'left' : 'right',
+pick: () => { if (!this.moved) this.setState({ t: i }); }
+};
+});
+const cur = ev[f];
+const far = (a, b) => Math.hypot(a.mx - b.mx, a.my - b.my) >= 40;
+const near = (f > 0 && !far(cur, ev[f - 1])) || (f < ev.length - 1 && !far(cur, ev[f + 1]));
+const z = near ? 8 : 1;
+return {
+items: items,
+dots: ev.map((e, i) => ({ w: i === f ? 20 : 6, bg: i === f ? '#F7C948' : '#3A5A75' })),
+curYear: cur.ce,
+curAh: cur.ah,
+curEra: cur.era,
+curTitle: cur.title,
+curAr: cur.ar,
+curType: cur.type + ' · ' + cur.place.toUpperCase(),
+mapTf: 'translate(' + (195 - cur.mx * z) + 'px, ' + (400 - cur.my * z) + 'px) scale(' + z + ')',
+mapOp: near ? 0.3 : 0.7,
+places: this.places().map((p) => ({
+name: p.name,
+tf: 'translate(' + (195 + (p.x - cur.mx) * z) + 'px, ' + (400 + (p.y - cur.my) * z) + 'px)',
+op: p.detail ? (near ? 0.85 : 0) : (p.city && near ? 0 : 0.85),
+ll: p.below ? '-75px' : (p.right ? '14px' : 'auto'),
+lr: p.below || p.right ? 'auto' : '14px',
+lt: p.below ? '8px' : '-9px',
+la: p.below ? 'center' : (p.right ? 'left' : 'right')
+})),
+guard: (e) => { if (this.moved) e.preventDefault(); },
+down: (e) => {
+this.drag = { x: e.clientX, y: e.clientY, t: this.state.t };
+this.moved = false;
+this.setState({ dragging: true });
+},
+move: (e) => {
+if (!this.drag) return;
+const dx = e.clientX - this.drag.x, dy = e.clientY - this.drag.y;
+if (Math.abs(dx) + Math.abs(dy) > 6) this.moved = true;
+this.setState({ t: this.clamp(this.drag.t - (dx * ux + dy * uy) / S) });
+},
+up: () => {
+if (!this.drag) return;
+this.drag = null;
+this.setState({ t: Math.round(this.state.t), dragging: false });
+},
+wheel: (e) => { this.setState({ t: this.clamp(this.state.t + e.deltaY / 300) }); }
+};
+}
+}
+</script>
+</body>
+</html>
