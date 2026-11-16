@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Islamic History Timeline</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/7.7.2/vis-timeline-graph2d.min.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #0f0f0f; color: #e0e0e0; height: 100vh; display: flex; flex-direction: column; }
+
+  header { padding: 12px 20px; background: #1a1a1a; border-bottom: 1px solid #333; display: flex; align-items: center; gap: 16px; }
+  header h1 { font-size: 16px; font-weight: 600; }
+  #filter { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip { padding: 3px 10px; border-radius: 12px; border: 1px solid #444; background: #222; color: #ccc; font-size: 12px; cursor: pointer; }
+  .chip.active { background: #8b5cf6; border-color: #8b5cf6; color: #fff; }
+  #search { padding: 4px 10px; border-radius: 6px; border: 1px solid #444; background: #222; color: #ddd; font-size: 13px; width: 180px; }
+
+  #timeline-wrap { flex: 1; display: flex; flex-direction: column; justify-content: center; min-height: 0; overflow: hidden; }
+  #timeline { height: 55vh; width: 100%; }
+  #zoom-controls { display: flex; gap: 4px; }
+  .zoom-btn { background: #222; border: 1px solid #444; color: #aaa; width: 26px; height: 26px; border-radius: 4px; cursor: pointer; font-size: 17px; line-height: 1; display: flex; align-items: center; justify-content: center; padding: 0; }
+  .zoom-btn:hover { background: #333; color: #fff; }
+
+  /* vis-timeline dark theme overrides */
+  .vis-timeline { border: none !important; background: #141414 !important; }
+  .vis-time-axis .vis-text { color: #888 !important; }
+  .vis-time-axis .vis-grid.vis-major { border-color: #2a2a2a !important; }
+  .vis-time-axis .vis-grid.vis-minor { border-color: #1e1e1e !important; }
+  .vis-current-time { background: #8b5cf6 !important; }
+  .vis-item { border-radius: 4px !important; font-size: 11px !important; border-width: 1px !important; }
+  .vis-item.vis-selected { border-color: #fff !important; }
+
+  /* event type colors */
+  .vis-item.battle    { background: #7f1d1d; border-color: #ef4444; color: #fca5a5; }
+  .vis-item.treaty    { background: #1e3a5f; border-color: #3b82f6; color: #93c5fd; }
+  .vis-item.birth     { background: #14532d; border-color: #22c55e; color: #86efac; }
+  .vis-item.death     { background: #3b1f1f; border-color: #f97316; color: #fdba74; }
+  .vis-item.migration { background: #2d1b69; border-color: #a855f7; color: #d8b4fe; }
+  .vis-item.revelation{ background: #713f12; border-color: #eab308; color: #fde047; }
+  .vis-item.political { background: #1c3a2e; border-color: #10b981; color: #6ee7b7; }
+  .vis-item.other     { background: #1f2937; border-color: #6b7280; color: #d1d5db; }
+
+  /* Detail panel */
+  #panel { position: fixed; right: 0; top: 0; bottom: 0; width: 380px; background: #1a1a1a; border-left: 1px solid #333; padding: 20px; overflow-y: auto; transform: translateX(100%); transition: transform 0.2s; z-index: 100; }
+  #panel.open { transform: translateX(0); }
+  #panel-close { position: absolute; top: 12px; right: 12px; background: none; border: none; color: #888; font-size: 20px; cursor: pointer; }
+  #panel h2 { font-size: 15px; margin-bottom: 4px; line-height: 1.4; }
+  #panel .ar { font-size: 17px; direction: rtl; text-align: right; color: #c4b5fd; margin-bottom: 12px; font-family: 'Amiri', serif; line-height: 1.8; }
+  #panel .meta { font-size: 12px; color: #666; margin-bottom: 12px; }
+  #panel .meta span { margin-right: 10px; }
+  #panel .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; margin-right: 6px; margin-bottom: 8px; }
+  #panel h3 { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin: 14px 0 6px; }
+  #panel p { font-size: 13px; line-height: 1.6; color: #ccc; }
+  #panel .ar-body { font-size: 14px; direction: rtl; text-align: right; line-height: 1.8; color: #a78bfa; }
+  #panel .person { font-size: 12px; color: #bbb; margin: 2px 0; }
+  #panel a { color: #60a5fa; font-size: 12px; }
+  #loading { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #0f0f0f; font-size: 14px; color: #666; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📜 Islamic History Timeline</h1>
+  <div id="zoom-controls">
+    <button class="zoom-btn" id="btn-zoom-in" title="Zoom in">+</button>
+    <button class="zoom-btn" id="btn-zoom-out" title="Zoom out">−</button>
+  </div>
+  <input id="search" type="text" placeholder="Search events…">
+  <div id="filter">
+    <span class="chip active" data-type="all">All</span>
+    <span class="chip" data-type="battle">Battle</span>
+    <span class="chip" data-type="revelation">Revelation</span>
+    <span class="chip" data-type="migration">Migration</span>
+    <span class="chip" data-type="birth">Birth</span>
+    <span class="chip" data-type="death">Death</span>
+    <span class="chip" data-type="political">Political</span>
+    <span class="chip" data-type="treaty">Treaty</span>
+  </div>
+</header>
+
+<div id="timeline-wrap">
+  <div id="timeline">
+    <div id="loading">Loading events.json…</div>
+  </div>
+</div>
+
+<div id="panel">
+  <button id="panel-close">✕</button>
+  <div id="panel-content"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/7.7.2/vis-timeline-graph2d.min.js"></script>
+<script>
+const TYPE_COLORS = {
+  battle: '#ef4444', treaty: '#3b82f6', birth: '#22c55e', death: '#f97316',
+  migration: '#a855f7', revelation: '#eab308', political: '#10b981',
+  construction: '#06b6d4', social: '#f59e0b', other: '#6b7280'
+};
+
+let timeline, allItems, dataset;
+let activeType = 'all';
+let searchQuery = '';
+let maxImportance = 1; // start strict: era-defining only
+
+const YEAR_MS = 1000 * 60 * 60 * 24 * 365.25;
+
+function importanceForRange(ms) {
+  if (ms > 50 * YEAR_MS) return 1;   // > 50 years  → era-defining only
+  if (ms > 10 * YEAR_MS) return 2;   // > 10 years  → +significant
+  return 3;                           // ≤ 10 years  → all
+}
+
+function ceLabel(ev) {
+  if (ev.date_ce == null) return '?';
+  return ev.date_ce < 0 ? `${Math.abs(ev.date_ce)} BCE` : `${ev.date_ce} CE`;
+}
+
+function toVisDate(ev) {
+  const y = ev.sort_key;
+  if (y == null) return null;
+  const year = Math.max(-270000, Math.min(275760, y));
+  // Use setUTCFullYear to avoid JS treating years 0-99 as 1900-1999
+  const d = new Date(0);
+  d.setUTCFullYear(year, 0, 1);
+  d.setUTCHours(0, 0, 0, 0);
+  return d;
+}
+
+function buildItems(events) {
+  return events
+    .filter(e => e.sort_key != null)
+    .map(e => ({
+      id: e.event_id,
+      content: e.title_en || '(untitled)',
+      start: toVisDate(e),
+      className: (e.event_type || 'other').toLowerCase(),
+      title: e.title_en,
+      _raw: e
+    }))
+    .filter(i => i.start != null);
+}
+
+function applyFilters() {
+  const q = searchQuery.toLowerCase();
+  const filtered = allItems.filter(item => {
+    const e = item._raw;
+    if (activeType !== 'all' && (e.event_type || 'other').toLowerCase() !== activeType) return false;
+    if (q && !(
+      (e.title_en || '').toLowerCase().includes(q) ||
+      (e.summary_en || '').toLowerCase().includes(q)
+    )) return false;
+    // When searching, ignore zoom-based importance filter so results always show
+    if (!q && (e.importance || 3) > maxImportance) return false;
+    return true;
+  });
+  dataset.clear();
+  dataset.add(filtered);
+}
+
+function showPanel(ev) {
+  const ah = ev.date_ah != null ? `${ev.date_ah} AH` : '';
+  const ce = ceLabel(ev);
+  const date = [ah, ce].filter(Boolean).join(' / ');
+  const type = (ev.event_type || 'other').toLowerCase();
+  const color = TYPE_COLORS[type] || '#6b7280';
+  const people = (ev.people || []).map(p =>
+    `<div class="person">• ${p.name_en || ''}${p.role ? ` <span style="color:#666">(${p.role})</span>` : ''}</div>`
+  ).join('');
+  const loc = ev.location && ev.location.name_en ? ev.location.name_en : null;
+
+  const sourceUrl = ev.source
+    ? `https://github.com/OpenITI/${ev.source.repo}/blob/main/data/${ev.source.uri}.mARkdown`
+    : null;
+
+  document.getElementById('panel-content').innerHTML = `
+    <div class="badge" style="background:${color}22;color:${color};border:1px solid ${color}44">${type}</div>
+    ${ev.importance === 1 ? '<div class="badge" style="background:#fde04722;color:#fde047;border:1px solid #fde04744">Era-defining</div>' : ''}
+    <h2>${ev.title_en || ''}</h2>
+    <div class="ar">${ev.title_ar || ''}</div>
+    <div class="meta">
+      <span>📅 ${date}</span>
+      ${loc ? `<span>📍 ${loc}</span>` : ''}
+      <span>🎯 Confidence: ${((ev.confidence || 0) * 100).toFixed(0)}%</span>
+    </div>
+
+    <h3>Summary</h3>
+    <p>${ev.summary_en || ''}</p>
+
+    <h3>From the source (Arabic)</h3>
+    <p class="ar-body">${ev.summary_ar || ''}</p>
+
+    ${people ? `<h3>People</h3>${people}` : ''}
+    ${ev.confidence_reasoning ? `<h3>Confidence note</h3><p style="font-size:12px;color:#777">${ev.confidence_reasoning}</p>` : ''}
+    ${sourceUrl ? `<h3>Primary source</h3><a href="${sourceUrl}" target="_blank">View in OpenITI →</a>` : ''}
+  `;
+  document.getElementById('panel').classList.add('open');
+}
+
+async function init() {
+  let events;
+  try {
+    const resp = await fetch('./events.json');
+    events = await resp.json();
+  } catch (e) {
+    document.getElementById('loading').textContent =
+      'Could not load events.json. Run: python -m http.server 8000 then open http://localhost:8000/timeline.html';
+    return;
+  }
+
+  document.getElementById('loading').remove();
+  allItems = buildItems(events);
+  // Guard against duplicate IDs from pipeline
+  const seen = new Set();
+  allItems = allItems.filter(item => {
+    if (seen.has(item.id)) return false;
+    seen.add(item.id);
+    return true;
+  });
+  dataset = new vis.DataSet(allItems);
+
+  const container = document.getElementById('timeline');
+  const options = {
+    orientation: 'top',
+    zoomMin: 1000 * 60 * 60 * 24 * 365 * 5,   // min 5-year zoom
+    zoomMax: 1000 * 60 * 60 * 24 * 365 * 3000, // max 3000-year zoom
+    moveable: true,
+    zoomable: false,   // disable scroll zoom; handled manually with reduced sensitivity
+    stack: true,
+    height: '100%',
+    tooltip: { followMouse: true, overflowMethod: 'cap' },
+  };
+
+  timeline = new vis.Timeline(container, dataset, options);
+
+  timeline.on('rangechanged', () => {
+    const { start, end } = timeline.getWindow();
+    const rangeMs = end - start;
+    const newMax = importanceForRange(rangeMs);
+    if (newMax !== maxImportance) {
+      maxImportance = newMax;
+      applyFilters();
+    }
+  });
+
+  // Apply initial filter (maxImportance already = 1)
+  setTimeout(() => applyFilters(), 0);
+
+  // Reduced-sensitivity wheel zoom (zoomable:false disables vis default scroll zoom)
+  container.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    if (e.deltaY > 0) timeline.zoomOut(0.12);
+    else timeline.zoomIn(0.12);
+  }, { passive: false });
+
+  // Zoom buttons
+  document.getElementById('btn-zoom-in').addEventListener('click', () => timeline.zoomIn(0.3));
+  document.getElementById('btn-zoom-out').addEventListener('click', () => timeline.zoomOut(0.3));
+
+  timeline.on('select', ({ items }) => {
+    if (!items.length) return;
+    const item = allItems.find(i => i.id === items[0]);
+    if (item) showPanel(item._raw);
+  });
+
+  // Filters
+  document.querySelectorAll('.chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeType = chip.dataset.type;
+      applyFilters();
+    });
+  });
+
+  document.getElementById('search').addEventListener('input', e => {
+    searchQuery = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById('panel-close').addEventListener('click', () => {
+    document.getElementById('panel').classList.remove('open');
+    timeline.setSelection([]);
+  });
+}
+
+init();
+</script>
+</body>
+</html>

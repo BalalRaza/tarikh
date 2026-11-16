@@ -1,0 +1,2 @@
+# DEPRECATED — use pyproject.toml instead:
+#   pip install -e ".[dev]"

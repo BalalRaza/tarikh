@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+*.json
+!pipeline/sources.yaml
+!design/tokens.json
+!package.json
+!tsconfig.json
+google_app_credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.mypy_cache/
+
+# Pipeline progress
+.progress_*.json
+.llm_progress.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (web/)
+node_modules/
+web/dist/
+web/vite.config.ts.timestamp-*
+poc/0325AH/

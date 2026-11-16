@@ -1,0 +1,11 @@
+sources:
+  - corpus: OpenITI
+    repo: "0325AH"
+    glob: "data/**/*Tabari*Tarikh*-ara1.mARkdown"
+    parser: openiti
+    uri: "0310Tabari.Tarikh.Shamela0009783BK1-ara1"
+    from_hijra: true
+    meta:
+      author: "al-Tabari"
+      author_death_ah: 310
+      book: "Tarikh al-Rusul wa'l-Muluk"

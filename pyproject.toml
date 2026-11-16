@@ -1,0 +1,49 @@
+[project]
+name = "tarikh"
+version = "0.1.0"
+description = "Islamic history timeline — ingestion pipeline & API"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncpg>=0.29",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "google-genai>=1.0",
+]
+
+[project.optional-dependencies]
+api = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "orjson>=3.10",
+]
+dev = [
+    "ruff>=0.8",
+    "mypy>=1.13",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
+
+[tool.setuptools.packages.find]
+include = ["pipeline*", "api*"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]  # line length handled by formatter
+
+[tool.ruff.lint.isort]
+known-first-party = ["pipeline", "api"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false  # gradual adoption
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
