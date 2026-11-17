@@ -3,7 +3,7 @@
     "id": "birth",
     "order": 1,
     "major": true,
-    "title": "Birth",
+    "title": "Birth of the Prophet ﷺ",
     "ce": "c. 570",
     "ah": null,
     "place": {
@@ -87,17 +87,26 @@
     "verified": true,
     "scene": "scenes/birth.svg",
     "dateNote": "Monday and the Year of the Elephant are firmly reported, but the day of the month is disputed (Ibn Ishaq says 12 Rabi' al-Awwal; others say the 2nd, 8th or 10th, and one report says Ramadan), AH does not apply because this is before the Hijra, and 570 CE is a modern conversion (570 or 571) that the classical sources do not give.",
-    "gradeReason": "Quran 105 (the Elephant event) and Sahih Muslim 1162b (Monday birth) support the core, and the Elephant-year birth is in Tirmidhi 3619 (graded Sahih (Darussalam) on sunnah.com), while the day of the month and the CE year are disputed or modern."
+    "gradeReason": "Quran 105 (the Elephant event) and Sahih Muslim 1162b (Monday birth) support the core, and the Elephant-year birth is in Tirmidhi 3619 (graded Sahih (Darussalam) on sunnah.com), while the day of the month and the CE year are disputed or modern.",
+    "ar": "مولد النبي ﷺ",
+    "type": "BIRTH",
+    "era": "Early life",
+    "y": "c. 570",
+    "sceneAlt": "Makkah at night: low stone houses around the Kaaba under a starry sky, with one bright star.",
+    "glow": {
+      "x": 885,
+      "y": 760
+    }
   },
   {
     "id": "revelation",
     "order": 2,
     "major": true,
-    "title": "First revelation",
+    "title": "The first revelation",
     "ce": "610",
     "ah": null,
     "place": {
-      "name": "Cave Hira",
+      "name": "Cave of Hira",
       "lat": 21.4574,
       "lng": 39.8576
     },
@@ -198,13 +207,22 @@
     "verified": true,
     "scene": "scenes/revelation.svg",
     "dateNote": "Sources give his age as forty (Sahih al-Bukhari 3851), the month as Ramadan (the well-known view per Ibn Kathir, citing Ibn Ishaq; Quran 2:185), and the day as Monday (Sahih Muslim 1162b), but the night of Ramadan is disputed (17th or 24th per Ibn Kathir), some reports give age 43, and no source states a CE year, so 610 CE is a modern calculation and no AH year exists because this is before the Hijra.",
-    "gradeReason": "Sahih al-Bukhari 3 and Sahih Muslim 160a narrate the event itself and Quran 96:1-5 gives the recited words, while only the exact night of Ramadan is disputed."
+    "gradeReason": "Sahih al-Bukhari 3 and Sahih Muslim 160a narrate the event itself and Quran 96:1-5 gives the recited words, while only the exact night of Ramadan is disputed.",
+    "ar": "بدء الوحي",
+    "type": "REVELATION",
+    "era": "Makkah period",
+    "y": "610",
+    "sceneAlt": "A rocky mountain at night with a small cave. A soft shaft of light falls into the cave.",
+    "glow": {
+      "x": 895,
+      "y": 535
+    }
   },
   {
     "id": "hijra",
     "order": 3,
     "major": true,
-    "title": "The Hijra",
+    "title": "Hijra to Madinah",
     "ce": "622",
     "ah": "1 AH",
     "place": {
@@ -312,12 +330,21 @@
     "verified": true,
     "scene": "scenes/hijra.svg",
     "dateNote": "Ibn Ishaq (via Ibn Hisham) and Ibn Kathir give arrival at Quba on Monday 12 Rabi' al-Awwal (an editor's footnote in the Ibn Hisham edition records another view of 8 Rabi' al-Awwal), Ibn Kathir places the Hijra in Rabi' al-Awwal yet also estimates about 15 days between leaving Makkah and entering Madinah (implying departure near the end of Safar), and the sources give only lunar dates, so 622 CE is a later calendar conversion.",
-    "gradeReason": "The Hijra, the companion and the cave are stated in Quran 9:40 and in Sahih al-Bukhari 3905; only the exact day and month remain a matter of difference between sources."
+    "gradeReason": "The Hijra, the companion and the cave are stated in Quran 9:40 and in Sahih al-Bukhari 3905; only the exact day and month remain a matter of difference between sources.",
+    "ar": "الهجرة إلى المدينة",
+    "type": "MIGRATION",
+    "era": "Madinah period",
+    "y": "622",
+    "sceneAlt": "Desert dunes and a winding path toward a distant oasis town, with one small camel.",
+    "glow": {
+      "x": 628,
+      "y": 676
+    }
   },
   {
     "id": "badr",
     "order": 4,
-    "major": false,
+    "major": true,
     "title": "Battle of Badr",
     "ce": "624",
     "ah": "2 AH",
@@ -465,7 +492,16 @@
     "verified": true,
     "scene": "scenes/badr.svg",
     "dateNote": "Ibn Ishaq/Ibn Hisham and Ibn Kathir give Friday morning, 17 Ramadan 2 AH (the CE year is a modern conversion, about mid-March 624), though Ibn Kathir also quotes reports pointing near the 19th and the departure date from Madinah is given as the 8th or 12th of Ramadan.",
-    "gradeReason": "The Quran (3:123, 8:7-10, 8:41-44) and sahih hadith (Sahih Muslim 1763, Sahih al-Bukhari 3951-3959) support the event, and Ibn Kathir and Ibn Hisham agree, though exact numbers (313/314/319 Muslims, about 900-1000 Quraysh, seventy captives against lower counts in some reports) and the day of the month vary slightly."
+    "gradeReason": "The Quran (3:123, 8:7-10, 8:41-44) and sahih hadith (Sahih Muslim 1763, Sahih al-Bukhari 3951-3959) support the event, and Ibn Kathir and Ibn Hisham agree, though exact numbers (313/314/319 Muslims, about 900-1000 Quraysh, seventy captives against lower counts in some reports) and the day of the month vary slightly.",
+    "ar": "غزوة بدر",
+    "type": "BATTLE",
+    "era": "Madinah period",
+    "y": "624",
+    "sceneAlt": "A dry valley between low hills with a well, and two small groups of distant figures.",
+    "glow": {
+      "x": 235,
+      "y": 628
+    }
   },
   {
     "id": "conquest",
@@ -654,13 +690,22 @@
     "verified": true,
     "scene": "scenes/conquest.svg",
     "dateNote": "Sources agree it was Ramadan 8 AH; Ibn Ishaq (via Ibn Hisham and Ibn Kathir) says the army left Madinah on 10 Ramadan, army size is given as 10,000 (Bukhari 4276, Ibn Ishaq) or 12,000 (Urwa, al-Zuhri, Musa ibn Uqba), the exact day of entry is not fixed in the sources opened, and 630 CE (about January) is a calendar conversion, not stated in them.",
-    "gradeReason": "Sahih al-Bukhari and Sahih Muslim report the Ramadan march, the 360 idols and safety for those in Abu Sufyan's house, and Bukhari 4294 ties Surah An-Nasr to the conquest; only the exact words 'Go, you are free' rest on Ibn Ishaq (Ibn Hisham, Ibn Kathir) with an unnamed narrator."
+    "gradeReason": "Sahih al-Bukhari and Sahih Muslim report the Ramadan march, the 360 idols and safety for those in Abu Sufyan's house, and Bukhari 4294 ties Surah An-Nasr to the conquest; only the exact words 'Go, you are free' rest on Ibn Ishaq (Ibn Hisham, Ibn Kathir) with an unnamed narrator.",
+    "ar": "فتح مكة",
+    "type": "RETURN",
+    "era": "Madinah period",
+    "y": "630",
+    "sceneAlt": "The Kaaba in an open courtyard at dawn, with hills around and a few small figures.",
+    "glow": {
+      "x": 900,
+      "y": 725
+    }
   },
   {
     "id": "farewell",
     "order": 6,
     "major": true,
-    "title": "Farewell Pilgrimage",
+    "title": "The Farewell Pilgrimage",
     "ce": "632",
     "ah": "10 AH",
     "place": {
@@ -762,6 +807,15 @@
     "verified": true,
     "scene": "scenes/farewell.svg",
     "dateNote": "Sources give the year as 10 AH and the day of Arafat as Friday, 9 Dhul Hijjah (Ibn Kathir: no dispute), while the day he left Madinah is debated (Thursday per Ibn Hazm, Saturday per Ibn Kathir), and 632 CE (about early March, Julian calendar) is a modern conversion that none of these sources state.",
-    "gradeReason": "Quran 5:3 and the reports in Sahih Muslim 1218 and Sahih al-Bukhari 1739 support it, and Ibn Kathir and Ibn Hisham agree; sunnah.com shows no grade line on either hadith page."
+    "gradeReason": "Quran 5:3 and the reports in Sahih Muslim 1218 and Sahih al-Bukhari 1739 support it, and Ibn Kathir and Ibn Hisham agree; sunnah.com shows no grade line on either hadith page.",
+    "ar": "حجة الوداع",
+    "type": "PILGRIMAGE",
+    "era": "Madinah period",
+    "y": "632",
+    "sceneAlt": "A wide plain covered by a great crowd, with a small rocky hill, under an afternoon sky.",
+    "glow": {
+      "x": 790,
+      "y": 520
+    }
   }
 ]
