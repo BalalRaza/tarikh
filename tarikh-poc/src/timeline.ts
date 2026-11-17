@@ -78,7 +78,6 @@ export function renderTimeline(root: HTMLElement, focusId?: string): () => void 
     const FY = Math.round(H * 0.474);
     const f = Math.round(clamp(t));
     const cur = events[f];
-    const c = pts[f];
 
     // line through the focus point
     const L = 2 * Math.hypot(W, H);
@@ -103,12 +102,20 @@ export function renderTimeline(root: HTMLElement, focusId?: string): () => void 
       el.classList.toggle('focus', i === f);
     });
 
-    // map: pan so the focused place sits under the focus point; zoom in when neighbours are close
+    // map: pan so the focus point sits between the two nearest places; zoom in when neighbours are close.
+    // Interpolated on fractional t so the map follows the drag instead of jumping.
     const far = (a: number, b: number) => Math.hypot(pts[a].x - pts[b].x, pts[a].y - pts[b].y) >= NEAR;
-    const near = (f > 0 && !far(f, f - 1)) || (f < events.length - 1 && !far(f, f + 1));
-    const z = near ? ZOOM : 1;
+    const zoomAt = (i: number) =>
+      (i > 0 && !far(i, i - 1)) || (i < events.length - 1 && !far(i, i + 1)) ? ZOOM : 1;
+    const ct = clamp(t);
+    const i0 = Math.floor(ct);
+    const i1 = Math.min(events.length - 1, i0 + 1);
+    const fr = ct - i0;
+    const c = { x: pts[i0].x + (pts[i1].x - pts[i0].x) * fr, y: pts[i0].y + (pts[i1].y - pts[i0].y) * fr };
+    const z = zoomAt(i0) ** (1 - fr) * zoomAt(i1) ** fr;
+    const near = z > 2;
     mapEl.style.transform = `translate(${FX - c.x * z}px, ${FY - c.y * z}px) scale(${z})`;
-    mapEl.style.opacity = near ? '0.3' : '0.7';
+    mapEl.style.opacity = String(0.7 - (0.4 * Math.log(z)) / Math.log(ZOOM));
     mapEl.style.setProperty('--z', String(z));
     plEls.forEach((el, i) => {
       const p = places[i];
