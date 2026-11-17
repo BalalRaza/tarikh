@@ -37,17 +37,3 @@ const PLACES: Place[] = [
 ];
 
 export const places = PLACES.map((p) => ({ ...p, ...project(p.lat, p.lng) }));
-
-/** Small round map showing only one place. */
-export function miniMap(lat: number, lng: number, name: string): string {
-  const { x, y } = project(lat, lng);
-  const r = 60;
-  return (
-    `<svg width="80" height="80" viewBox="${x - r} ${y - r} ${2 * r} ${2 * r}">` +
-    COAST +
-    `<circle cx="${x}" cy="${y}" r="11" fill="#F7C948" opacity="0.28"/>` +
-    `<circle cx="${x}" cy="${y}" r="5" fill="#F7C948"/>` +
-    `<text x="${x}" y="${y - 20}" text-anchor="middle" font-family="Nunito, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">${name}</text>` +
-    '</svg>'
-  );
-}

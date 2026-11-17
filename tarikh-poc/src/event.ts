@@ -1,5 +1,4 @@
 import { esc, type Ev, type Ref } from './data';
-import { miniMap } from './map';
 
 const BACK =
   '<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>';
@@ -49,7 +48,6 @@ export function renderEvent(root: HTMLElement, e: Ev) {
         <circle cx="${e.glow.x}" cy="${e.glow.y}" r="70" fill="url(#glow-g)" filter="url(#glow-b)"/>
       </svg>
       <a class="ev-back" href="#/at/${e.id}" aria-label="Back to timeline">${BACK}</a>
-      <div class="ev-mini" aria-hidden="true">${miniMap(e.place.lat, e.place.lng, esc(e.place.name))}</div>
     </div>
 
     <div class="ev-body">
